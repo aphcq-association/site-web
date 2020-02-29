@@ -1,7 +1,7 @@
 Site web de l'APHCQ
 =====
 
-[![CircleCI](https://circleci.com/gh/autodependance/autodpendance.svg?style=svg)](https://circleci.com/gh/autodependance/autodpendance)
+[![CircleCI](https://circleci.com/gh/aphcq-association/site-web?style=svg)](https://circleci.com/gh/aphcq-association/site-web)
 
 Disponible temporairement au http://aphcq.dcycleproject.org
 
@@ -16,3 +16,8 @@ Développement local
 Installer [Docker Desktop](https://www.docker.com/products/docker-desktop), télécharger ce code, ouvrir un terminal, naviguer vers le répertoire qui contient le code et taper:
 
     ./scripts/deploy.sh
+
+Questions? Support?
+-----
+
+Voir la [liste des demandes sur GitHub](https://github.com/aphcq-association/site-web/issues).
