@@ -17,6 +17,12 @@ Installer [Docker Desktop](https://www.docker.com/products/docker-desktop), tél
 
     ./scripts/deploy.sh
 
+Ensite visitez http://0.0.0.0:8081 dans un fureteur.
+
+Quand vous avez fini, tapez:
+
+    ./scripts/destroy.sh
+
 Questions? Support?
 -----
 
