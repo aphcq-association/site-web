@@ -1,7 +1,20 @@
 email_contact: aphcq.histoire@gmail.com
 email_paypal: aphcq.histoire@gmail.com
 copyright_holder: Association des professeures et des professeurs d'histoire des collèges du Québec
+courte_description: Fondée en 1995, l’Association des professeures et professeurs d’histoire des collèges  du Québec (APHCQ) rassemble des enseignants en histoire œuvrant dans le réseau collégial.
 facebook: https://www.facebook.com/groups/50431211883/
+options_paypal:
+  - nom: Ceci est un test
+    prix: 0.10
+  - nom: Adhérez au APHCQ
+    prix: 20.00
+  - nom: Participez au congrès (membres)
+    prix: 20.00
+  - nom: Adhérez et participez au congrès
+    prix: 40.00
+bouton_noir:
+  texte: fda
+  url: fa
 base: /
 sections:
   - id: home
