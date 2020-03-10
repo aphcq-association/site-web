@@ -1,5 +1,6 @@
 email_contact: aphcq.histoire@gmail.com
 copyright_holder: Association des professeures et des professeurs d'histoire des collèges du Québec
+facebook: https://www.facebook.com/groups/50431211883/
 base: /
 sections:
   - id: home
@@ -8,3 +9,6 @@ sections:
   - id: apropos
     href: apropos.html
     titre: Qui sommes-nous?
+  - id: facebook
+    href: https://www.facebook.com/groups/50431211883/
+    titre: Sur Facebook
