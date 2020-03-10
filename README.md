@@ -23,6 +23,12 @@ Quand vous avez fini, tapez:
 
     ./scripts/destroy.sh
 
+Photos
+-----
+
+* 1920 x 832
+* 558 x 329
+
 Questions? Support?
 -----
 

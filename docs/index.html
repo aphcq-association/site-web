@@ -9,83 +9,37 @@ nav_id: home
 
   <div class="swiper-container hero-slider">
     <div class="swiper-wrapper">
+      {% for slide in site.carousel %}
       <div class="swiper-slide hero-content-wrap">
-        <img src="images/hero.jpg" alt="">
+        <img src="{{ slide.image }}" alt="">
 
         <div class="hero-content-overlay position-absolute w-100 h-100">
           <div class="container h-100">
             <div class="row h-100">
               <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
                 <header class="entry-header">
-                  <h1>Donate</h1>
-                  <h4>4 a better world</h4>
+                  <h1>{{ slide.titre }}</h1>
+                  <h4>{{ slide.sous_titre }}</h4>
                 </header><!-- .entry-header -->
 
                 <div class="entry-content mt-4">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
+                  <p>{{ slide.texte }}</p>
                 </div><!-- .entry-content -->
 
                 <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                  <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                  <a href="#" class="btn orange-border">Read More</a>
+                  {% if slide.action %}
+                  <a href="{{ slide.action_href }}" class="btn gradient-bg mr-2">{{ slide.action }}</a>
+                  {% endif %}
+                  {% if slide.plus %}
+                  <a href="{{ slide.plus_href }}" class="btn orange-border">{{ slide.plus }}</a>
+                  {% endif %}
                 </footer><!-- .entry-footer -->
               </div><!-- .col -->
             </div><!-- .row -->
           </div><!-- .container -->
         </div><!-- .hero-content-overlay -->
       </div><!-- .hero-content-wrap -->
-
-      <div class="swiper-slide hero-content-wrap">
-        <img src="images/hero.jpg" alt="">
-
-        <div class="hero-content-overlay position-absolute w-100 h-100">
-          <div class="container h-100">
-            <div class="row h-100">
-              <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
-                <header class="entry-header">
-                  <h1>Donate</h1>
-                  <h4>4 a better world</h4>
-                </header><!-- .entry-header -->
-
-                <div class="entry-content mt-4">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
-                </div><!-- .entry-content -->
-
-                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                  <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                  <a href="#" class="btn orange-border">Read More</a>
-                </footer><!-- .entry-footer -->
-              </div><!-- .col -->
-            </div><!-- .row -->
-          </div><!-- .container -->
-        </div><!-- .hero-content-overlay -->
-      </div><!-- .hero-content-wrap -->
-
-      <div class="swiper-slide hero-content-wrap">
-        <img src="images/hero.jpg" alt="">
-
-        <div class="hero-content-overlay position-absolute w-100 h-100">
-          <div class="container h-100">
-            <div class="row h-100">
-              <div class="col-12 col-lg-8 d-flex flex-column justify-content-center align-items-start">
-                <header class="entry-header">
-                  <h1>Donate</h1>
-                  <h4>4 a better world</h4>
-                </header><!-- .entry-header -->
-
-                <div class="entry-content mt-4">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestibulum mauris quis aliquam. Integer accumsan sodales odio, id tempus ullamcorper</p>
-                </div><!-- .entry-content -->
-
-                <footer class="entry-footer d-flex flex-wrap align-items-center mt-5">
-                  <a href="#" class="btn gradient-bg mr-2">Donate Now</a>
-                  <a href="#" class="btn orange-border">Read More</a>
-                </footer><!-- .entry-footer -->
-              </div><!-- .col -->
-            </div><!-- .row -->
-          </div><!-- .container -->
-        </div><!-- .hero-content-overlay -->
-      </div><!-- .hero-content-wrap -->
+      {% endfor %}
     </div><!-- .swiper-wrapper -->
 
     <div class="pagination-wrap position-absolute w-100">
@@ -107,57 +61,30 @@ nav_id: home
   <div class="home-page-icon-boxes">
     <div class="container">
       <div class="row">
+
+        {% for boite in sections_oranges %}
         <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-          <div class="icon-box active">
-            <figure class="d-flex justify-content-center">
-              <img src="images/hands-gray.png" alt="">
-              <img src="images/hands-white.png" alt="">
-            </figure>
-
-            <header class="entry-header">
-              <h3 class="entry-title">Become a Volunteer</h3>
-            </header>
-
-            <div class="entry-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
+          <a href="{{ boite.href }}">
           <div class="icon-box">
             <figure class="d-flex justify-content-center">
-              <img src="images/donation-gray.png" alt="">
-              <img src="images/donation-white.png" alt="">
+              <img src="images/{{ boite.icone }}-gray.png" alt="">
+              <img src="images/{{ boite.icone }}-white.png" alt="">
             </figure>
 
             <header class="entry-header">
-              <h3 class="entry-title">Dance & Music</h3>
+              <h3 class="entry-title">{{ boite.titre }}</h3>
             </header>
 
             <div class="entry-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
+              <p>{{ boite.texte }}</p>
             </div>
           </div>
+          </a>
         </div>
+        {% endfor %}
 
-        <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-          <div class="icon-box">
-            <figure class="d-flex justify-content-center">
-              <img src="images/charity-gray.png" alt="">
-              <img src="images/charity-white.png" alt="">
-            </figure>
-
-            <header class="entry-header">
-              <h3 class="entry-title">Online Conference</h3>
-            </header>
-
-            <div class="entry-content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris tempus vestib ulum mauris quis aliquam. </p>
-            </div>
-          </div>
-        </div>
       </div><!-- .row -->
+
     </div><!-- .container -->
   </div><!-- .home-page-icon-boxes -->
 

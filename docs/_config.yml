@@ -1,8 +1,68 @@
 email_contact: aphcq.histoire@gmail.com
+
 email_paypal: aphcq.histoire@gmail.com
+
 copyright_holder: Association des professeures et des professeurs d'histoire des collèges du Québec
+
 courte_description: Fondée en 1995, l’Association des professeures et professeurs d’histoire des collèges  du Québec (APHCQ) rassemble des enseignants en histoire œuvrant dans le réseau collégial.
+
 facebook: https://www.facebook.com/groups/50431211883/
+
+carousel:
+  # - titre: titre
+  #   sous_titre: sous_titre
+  #   texte: texte
+  #   action: action
+  #   action_href: /exemple
+  #   plus: plus
+  #   plus_href: /exemple
+  #   image: /images/aphcq/1.jpg
+  - titre: Congrès de l'APHCQ 2020
+    texte: Un moment unique pour discuter des orientations en histoire.
+    action: Inscrivez-vous
+    action_href: /2020/03/10/congres-2020.html
+    image: /images/aphcq/1c.jpg
+  - titre: L'APHCQ
+    sous_titre:
+    texte: C'est 2000 personnes passionnées par leur travail
+    image: /images/aphcq/2c.jpg
+    action: En savoir plus
+    action_href: /apropos.html
+  - titre:
+    sous_titre: l'histoire sur le terrain
+    texte:
+    action:
+    plus:
+    image: /images/aphcq/3c.jpg
+  - titre:
+    sous_titre: voyages
+    texte:
+    action:
+    plus:
+    image: /images/aphcq/4c.jpg
+  - titre:
+    sous_titre: découvertes
+    texte:
+    action:
+    plus:
+    image: /images/aphcq/5c.jpg
+
+sections_oranges:
+  # icone: main, coeur, ou argent
+  # (inscrire hands, donation ou charity)
+  - icone: charity
+    titre: Congrès 2020
+    texte: joignez-vous à des centaines de collègues pour débattre des orientations en enseignement de l'Histoire.
+    href: /2020/03/10/congres-2020.html
+  - icone: hands
+    titre: Devenez membre
+    texte: vous êtes prof? Devenez membre de l'APHCQ.
+    href: /adherez.html
+  - icone: donation
+    titre: Suivez-nous
+    texte: Découvrez nos activités sur Facebook.
+    href: https://www.facebook.com/groups/50431211883/
+
 options_paypal:
   - nom: Ceci est un test
     prix: 0.10
@@ -12,10 +72,13 @@ options_paypal:
     prix: 20.00
   - nom: Adhérez et participez au congrès
     prix: 40.00
+
 bouton_noir:
   texte: Congrès 2020
   url: /2020/03/10/congres-2020.html
+
 base: /
+
 sections:
   - id: home
     href: /index.html
@@ -23,6 +86,9 @@ sections:
   - id: apropos
     href: /apropos.html
     titre: Qui sommes-nous?
+  - id: adherez
+    href: /adherez.html
+    titre: Adhérez
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
     titre: Sur Facebook
