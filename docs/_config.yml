@@ -52,15 +52,24 @@ sections_oranges:
   # (inscrire hands, donation ou charity)
   - icone: charity
     titre: Congrès 2020
-    texte: joignez-vous à des centaines de collègues pour débattre des orientations en enseignement de l'Histoire.
+    texte: joignez-vous à des centaines de
+    texte2: collègues pour débattre des
+    texte3: orientations en enseignement
+    texte4: de l'Histoire.
     href: /2020/03/10/congres-2020.html
   - icone: hands
     titre: Devenez membre
-    texte: vous êtes prof? Devenez membre de l'APHCQ.
+    texte: vous êtes prof?
+    texte2: Devenez membre de l'APHCQ.
+    texte3:
+    texte4:
     href: /adherez.html
   - icone: donation
     titre: Suivez-nous
-    texte: Découvrez nos activités sur Facebook.
+    texte: Découvrez nos activités
+    texte2: sur Facebook.
+    texte3:
+    texte4:
     href: https://www.facebook.com/groups/50431211883/
 
 options_paypal:

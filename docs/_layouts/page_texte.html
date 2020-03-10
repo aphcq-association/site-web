@@ -3,7 +3,7 @@
 {% include html_head.html %}
 <body class="single-page about-page">
   {% include header.html %}
-  <div class="page-header">
+  <div class="page-header" style="background: url({{ page.image_top }})">
     <div class="container">
       <div class="row">
         <div class="col-12">
@@ -31,7 +31,7 @@
         </div><!-- .col -->
 
         <div class="col-12 col-lg-6 order-1 order-lg-2">
-          <img src="/images/welcome.jpg" alt="welcome">
+          <img src="{{ page.image_droite }}" alt="welcome">
         </div><!-- .col -->
       </div><!-- .row -->
     </div><!-- .container -->

@@ -26,8 +26,9 @@ Quand vous avez fini, tapez:
 Photos
 -----
 
-* 1920 x 832
-* 558 x 329
+* 1920 x 832 (c)
+* 558 x 329 (s)
+* 1920 x 248 (b)
 
 Questions? Support?
 -----

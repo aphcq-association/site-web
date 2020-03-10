@@ -62,9 +62,9 @@ nav_id: home
     <div class="container">
       <div class="row">
 
-        {% for boite in sections_oranges %}
+        {% for boite in site.sections_oranges %}
         <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-          <a href="{{ boite.href }}">
+          <a class="no-underline" href="{{ boite.href }}">
           <div class="icon-box">
             <figure class="d-flex justify-content-center">
               <img src="images/{{ boite.icone }}-gray.png" alt="">
@@ -76,7 +76,10 @@ nav_id: home
             </header>
 
             <div class="entry-content">
-              <p>{{ boite.texte }}</p>
+              <p>{{ boite.texte }}<br/>
+              &nbsp;{{ boite.texte2 }}&nbsp;<br/>
+              &nbsp;{{ boite.texte3 }}&nbsp;<br/>
+              &nbsp;{{ boite.texte4 }}&nbsp;</p>
             </div>
           </div>
           </a>
