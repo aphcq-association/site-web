@@ -13,15 +13,15 @@ options_paypal:
   - nom: Adhérez et participez au congrès
     prix: 40.00
 bouton_noir:
-  texte: fda
-  url: fa
+  texte: Congrès 2020
+  url: /2020/03/10/congres-2020.html
 base: /
 sections:
   - id: home
-    href: index.html
+    href: /index.html
     titre: Accueil
   - id: apropos
-    href: apropos.html
+    href: /apropos.html
     titre: Qui sommes-nous?
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
