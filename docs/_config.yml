@@ -74,7 +74,7 @@ sections_oranges:
 
 options_paypal:
   - nom: Ceci est un test
-    prix: 0.10
+    prix: 0.20
   - nom: Adhérez au APHCQ
     prix: 20.00
   - nom: Participez au congrès (membres)
