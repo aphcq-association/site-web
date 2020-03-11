@@ -94,7 +94,7 @@ sections:
     titre: Accueil
   - id: apropos
     href: /apropos.html
-    titre: Qui sommes-nous?
+    titre: Qui sommes-nous? / Nous contacter
   - id: adherez
     href: /adherez.html
     titre: Adhérez
