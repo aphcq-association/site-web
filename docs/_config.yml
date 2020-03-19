@@ -74,7 +74,7 @@ sections_oranges:
 
 options_paypal:
   - nom: Ceci est un test
-    prix: 0.10
+    prix: 0.20
   - nom: Adhérez au APHCQ
     prix: 20.00
   - nom: Participez au congrès (membres)
@@ -94,10 +94,13 @@ sections:
     titre: Accueil
   - id: apropos
     href: /apropos.html
-    titre: Qui sommes-nous?
+    titre: Qui sommes-nous? / Nous contacter
   - id: adherez
     href: /adherez.html
     titre: Adhérez
+  - id: bulletin
+    href: /bulletin.html
+    titre: Bulletin de l'APHCQ
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
     titre: Sur Facebook
