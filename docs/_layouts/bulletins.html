@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include html_head.html %}
+<body class="single-page about-page">
+  {% include header.html %}
+  <div class="page-header" style="background: url({{ page.image_top }})">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1>{{ page.titre }}</h1>
+        </div><!-- .col -->
+      </div><!-- .row -->
+    </div><!-- .container -->
+  </div><!-- .page-header -->
+
+  <div class="welcome-wrap">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-lg-12 order-2 order-lg-1">
+          <div class="welcome-content">
+            <div class="entry-content mt-5">
+              {{ content | markdownify }}
+
+              {% if page.paypal %}
+              <div class="entry-footer mt-5">
+                {% include paypal.html %}
+              </div><!-- .entry-footer -->
+              {% endif %}
+            </div><!-- .entry-content -->
+          </div><!-- .welcome-content -->
+        </div><!-- .col -->
+      </div><!-- .row -->
+      <div class="row">
+        <div class="col-12 col-lg-12 order-2 order-lg-1">
+          <ul>
+          {% for bulletin in site.bulletins %}
+            <li><a href="/bulletins/{{ bulletin.fichier }}">{{ bulletin.periode }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div><!-- .container -->
+  </div><!-- .home-page-icon-boxes -->
+
+  {% include footer.html %}
+
+  <script type='text/javascript' src='/js/jquery.js'></script>
+  <script type='text/javascript' src='/js/jquery.collapsible.min.js'></script>
+  <script type='text/javascript' src='/js/swiper.min.js'></script>
+  <script type='text/javascript' src='/js/jquery.countdown.min.js'></script>
+  <script type='text/javascript' src='/js/circle-progress.min.js'></script>
+  <script type='text/javascript' src='/js/jquery.countTo.min.js'></script>
+  <script type='text/javascript' src='/js/jquery.barfiller.js'></script>
+  <script type='text/javascript' src='/js/custom.js'></script>
+
+</body>
+</html>

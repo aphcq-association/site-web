@@ -104,3 +104,130 @@ sections:
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
     titre: Sur Facebook
+
+bulletins:
+# Pour ajouter un bulletin, vous pouveez l'ajouter dans le répertoire bulletins
+# avec les autres. SVP assurez-vous qu'il n'y ait pas d'espace dans nom du
+# document, d'accents, ou de majuscules. Vous pouvez utiliser
+# http://smallpdf.com ou encore http://github.com/dcycle/docker-compresspdf
+# pour comprimer les PDFs pour qu'ils se téléchargent plus vite.
+  - periode: Numéro 1, septembre 1994
+    fichier: 001_bulletin_de_l_aphcq_sept_1994.pdf.compressed.pdf
+  - periode: Volume 1, numéro 1, novembre 1994
+    fichier: 002_bulletin_de_l_aphcq_vol1no1nov1994.pdf.compressed.pdf
+  - periode: Volume 1, numéro 2, avril 1995
+    fichier: 003_bulletin_de_l_aphcq_vol1no2avril1995.pdf.compressed.pdf
+  - periode: Volume 2, numéro 1, octobre 1995
+    fichier: 004_bulletin_de_l_aphcq_vol2no1oct1995.pdf.compressed.pdf
+  - periode: Volume 2, numéro 2, décembre 1995
+    fichier: 005_bulletin_de_l_aphcq_vol2no2dec1995.pdf.compressed.pdf
+  - periode: Volume 2, numéro 3, mars 1996
+    fichier: 006_bulletin_de_l_aphcq_vol2no3mars1996.pdf.compressed.pdf
+  - periode: Volume 2, numéro 5, mai 1996
+    fichier: 007_bulletin_de_l_aphcq_vol2no4mai1996.pdf.compressed.pdf
+  - periode: Volume 3, numéro 1, octobre 1996
+    fichier: 008_bulletin_de_l_aphcq_vol3no1oct1996.pdf.compressed.pdf
+  - periode: Volume 3, numéro 2, décembre 1996
+    fichier: 009_bulletin_de_l_aphcq_vol3no2dec1996.pdf.compressed.pdf
+  - periode: Volume 3, numéro 3, mars 1997
+    fichier: 010_bulletin_de_l_aphcq_vol3no3mars1997.pdf.compressed.pdf
+  - periode: Volume 3, numéro 4, mai 1997
+    fichier: 011_bulletin_de_l_aphcq_vol3no4mai1997.pdf.compressed.pdf
+  - periode: Volume 4, numéro 1, septembre 1997
+    fichier: 012_bulletin_de_l_aphcq_vol4no1sept1997.pdf.compressed.pdf
+  - periode: Volume 4, numéro 2, décembre 1997
+    fichier: 013_bulletin_de_l_aphcq_vol4no2dec1997.pdf.compressed.pdf
+  - periode: Volume 4, numéro 3, mars 1998
+    fichier: 014_bulletin_de_l_aphcq_vol4no3mars1998.pdf.compressed.pdf
+  - periode: Volume 4, numéro 4, printemps 1998
+    fichier: 015_bulletin_de_l_aphcq_vol4no4printemps1998.pdf.compressed.pdf
+  - periode: Volume 5, numéro 1, octobre 1998
+    fichier: 016_bulletin_de_l_aphcq_vol5no1oct1998.pdf.compressed.pdf
+  - periode: Volume 5, numéro 2, février 1999
+    fichier: 017_bulletin_de_l_aphcq_vol5no2fev1999.pdf.compressed.pdf
+  - periode: Volume 5, numéro 3, mars 1999
+    fichier: 018_bulletin_de_l_aphcq_vol5no3mars1999.pdf.compressed.pdf
+  - periode: Volume 5, numéro 4, mai 1999
+    fichier: 019_bulletin_de_l_aphcq_vol5no4mai1999.pdf.compressed.pdf
+  - periode: Volume 6, numéro 1, octobre 1999
+    fichier: 020_bulletin_de_l_aphcq_vol6no1oct1999.pdf.compressed.pdf
+  - periode: Volume 7, numéro 1, octobre 2000
+    fichier: 021_bulletin_de_l_aphcq_vol7no1oct2000.pdf.compressed.pdf
+  - periode: Volume 7, numéro 3, avril 2001
+    fichier: 022_bulletin_de_l_aphcq_vol7no3avril2001.pdf.compressed.pdf
+  - periode: Volume 8, numéro 1, octobre 2001
+    fichier: 023_bulletin_de_l_aphcq_vol8no1oct2001.pdf.compressed.pdf
+  - periode: Volume 8, numéro 2, hiver 2002
+    fichier: 024_bulletin_de_l_aphcq_vol8no2hiver2002.pdf.compressed.pdf
+  - periode: Volume 8, numéro 4, printemps 2002
+    fichier: 025_bulletin_de_l_aphcq_vol8no4printemps2002.pdf.compressed.pdf
+  - periode: Volume 9, numéro 1, automne 2002
+    fichier: 026_bulletin_de_l_aphcq_vol9no1automne2002.pdf.compressed.pdf
+  - periode: Volume 9, numéro 2, hiver 2003
+    fichier: 027_bulletin_de_l_aphcq_vol9no2hiver2003.pdf.compressed.pdf
+  - periode: Volume 9, numéro 3, printemps 2003
+    fichier: 028_bulletin_de_l_aphcq_vol9no3printemps2003.pdf.compressed.pdf
+  - periode: Volume 10, numéro 1, automne 2003
+    fichier: 029_bulletin_de_l_aphcq_vol10no1automne2003.pdf.compressed.pdf
+  - periode: Volume 10, numéro 2, hiver 2004
+    fichier: 030_bulletin_de_l_aphcq_vol10no2hiver2004.pdf.compressed.pdf
+  - periode: Volume 10, numéro 3, printemps 2004
+    fichier: 031_bulletin_de_l_aphcq_vol10no3printemps-ete2004.pdf.compressed.pdf
+  - periode: Volume 11, numéro 1, automne 2004
+    fichier: 032_bulletin_de_l_aphcq_vol11no1automne2004.pdf.compressed.pdf
+  - periode: Volume 11, numéro 2, hiver 2005
+    fichier: 033_bulletin_de_l_aphcq_vol11no2hiver2005.pdf.compressed.pdf
+  - periode: Volume 11, numéro 3, printemps-été 2005
+    fichier: 034_bulletin_de_l_aphcq_vol11no3printemps-ete2005.pdf.compressed.pdf
+  - periode: Volume 12, numéro 1, automne 2005 - hiver 2006
+    fichier: 035_bulletin_de_l_aphcq_vol12no1automne2005-hiver2006.pdf.compressed.pdf
+  - periode: Volume 12, numéro 2, printemps 2006
+    fichier: 036_bulletin_de_l_aphcq_vol12no2printemps2006.pdf.compressed.pdf
+  - periode: Volume 12, numéro 3, automne 2006
+    fichier: 037_bulletin_de_l_aphcq_vol12no3automne2006.pdf.compressed.pdf
+  - periode: Volume 13, numéro 1, hiver 2007
+    fichier: 038_bulletin_de_l_aphcq_vol13no1hiver2007.pdf.compressed.pdf
+  - periode: Volume 13, numéro 2, printemps 2007
+    fichier: 039_bulletin_de_l_aphcq_vol13no2printemps2007.pdf.compressed.pdf
+  - periode: Volume 13, numéro 3, automne 2007
+    fichier: 040_bulletin_de_l_aphcq_vol13no3automne2007.pdf.compressed.pdf
+  - periode: Volume 14, numéro 1, hiver-printemps 2008
+    fichier: 041_bulletin_de_l_aphcq_vol14no1hiver-printemps2008.pdf.compressed.pdf
+  - periode: Volume 14, numéro 2, automne 2008
+    fichier: 042_bulletin_de_l_aphcq_vol14no2automne2008.pdf.compressed.pdf
+  - periode: Volume 15, numéro 1, hiver-printemps 2009
+    fichier: 043_bulletin_de_l_aphcq_vol15no1hiver-printemps2009.pdf.compressed.pdf
+  - periode: Volume 15, numéro 2, automen 2009
+    fichier: 044_bulletin_de_l_aphcq_vol15no2automne2009.pdf.compressed.pdf
+  - periode: Volume 16, numéro 1, hiver-printemps 2010
+    fichier: 045_bulletin_de_l_aphcq_vol16no1hiver-printemps2010.pdf.compressed.pdf
+  - periode: Volume 17, numéro 1, hiver 2011
+    fichier: 046_bulletin_de_l_aphcq_vol17no1hiver2011.pdf.compressed.pdf
+  - periode: Volume 17, numéro 2, automne 2011
+    fichier: 047_bulletin_de_l_aphcq_vol17no2aut2011.pdf.compressed.pdf
+  - periode: Volume 18, numéro 1, hiver 2012
+    fichier: 048_bulletin_de_l_aphcq_vol18no1hiv2012.pdf.compressed.pdf
+  - periode: Volume 18, numéro 2, printemps 2012
+    fichier: 049_bulletin_de_l_aphcq_vol18no2print2012.pdf.compressed.pdf
+  - periode: Volume 19, numéro 1, hiver 2013
+    fichier: 050_bulletin_de_l_aphcq_vol19no1hiver2013.pdf.compressed.pdf
+  - periode: Volume 19, numéro 2, printemps 2013
+    fichier: 051_bulletin_de_l_aphcq_vol19no2print2013.pdf.compressed.pdf
+  - periode: Volume 20, numéro 1, hiver 2014
+    fichier: 052_bulletin_de_l_aphcq_vol20no1hiver2014.pdf.compressed.pdf
+  - periode: Volume 20, numéro 2, printemps 2014
+    fichier: 053_bulletin_de_l_aphcq_vol20no2print2014.pdf.compressed.pdf
+  - periode: Volume 20, numéro 3, autommne 2014
+    fichier: 054_bulletin_de_l_aphcq_vol20no3aut2014.pdf.compressed.pdf
+  - periode: Volume 21, numéro 1, hiver 2015
+    fichier: 055_bulletin_de_l_aphcq_vol21no1hiver2015.pdf.compressed.pdf
+  - periode: Volume 22, numéro 1, hiver 2016
+    fichier: 056_bulletin_de_l_aphcq_vol22no1hiver2016.pdf.compressed.pdf
+  - periode: Volume 22, numéro 2, printemps 2016
+    fichier: 057_bulletin_de_l_aphcq_vol22no2print2016.pdf.compressed.pdf
+  - periode: Volume 23, numéro 1, hiver 2017
+    fichier: 058_bulletin_de_l_aphcq_vol23no1hiver2017.pdf.compressed.pdf
+  - periode: Volume 24, numéro 1, printemps 2018
+    fichier: 059_bulletin_de_l_aphcq_vol24no1printemps2018.pdf.compressed.pdf
+  - periode: Volume 25, numéro 1, hiver 2019
+    fichier: 060_bulletin_de_l_aphcq_vol25no1hiver2019.pdf.compressed.pdf
