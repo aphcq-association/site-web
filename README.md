@@ -23,6 +23,11 @@ Quand vous avez fini, tapez:
 
     ./scripts/destroy.sh
 
+Couleurs
+-----
+
+* Orange: 252, 73, 30 (FC491E)
+
 Photos
 -----
 
