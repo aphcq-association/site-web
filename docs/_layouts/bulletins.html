@@ -32,11 +32,15 @@
       </div><!-- .row -->
       <div class="row">
         <div class="col-12 col-lg-12 order-2 order-lg-1">
-          <ul>
-          {% for bulletin in site.bulletins %}
-            <li><a href="/bulletins/{{ bulletin.fichier }}">{{ bulletin.periode }}</a></li>
+          {% assign bulletins_grouped = site.bulletins | group_by: 'section' %}
+          {% for bulletin in bulletins_grouped %}
+            <h3>{{ bulletin.name }}</h3>
+            {% for item in bulletin.items %}
+            <ul>
+            <li><a href="/bulletins/{{ item.fichier }}">{{ item.periode }}</a></li>
+            </ul>
+            {% endfor %}
           {% endfor %}
-          </ul>
         </div>
       </div>
     </div><!-- .container -->
