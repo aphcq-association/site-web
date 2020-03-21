@@ -111,6 +111,8 @@ bulletins:
 # document, d'accents, ou de majuscules. Vous pouvez utiliser
 # http://smallpdf.com ou encore http://github.com/dcycle/docker-compresspdf
 # pour comprimer les PDFs pour qu'ils se téléchargent plus vite.
+**Volumes 1 à 4 (1994-1999)**
+
   - periode: Numéro 1, septembre 1994
     fichier: 001_bulletin_de_l_aphcq_sept_1994.pdf.compressed.pdf
   - periode: Volume 1, numéro 1, novembre 1994
@@ -149,6 +151,9 @@ bulletins:
     fichier: 018_bulletin_de_l_aphcq_vol5no3mars1999.pdf.compressed.pdf
   - periode: Volume 5, numéro 4, mai 1999
     fichier: 019_bulletin_de_l_aphcq_vol5no4mai1999.pdf.compressed.pdf
+ 
+ **Volumes 6 à 10 (1999-2004)**
+ 
   - periode: Volume 6, numéro 1, octobre 1999
     fichier: 020_bulletin_de_l_aphcq_vol6no1oct1999.pdf.compressed.pdf
   - periode: Volume 7, numéro 1, octobre 2000
@@ -173,6 +178,9 @@ bulletins:
     fichier: 030_bulletin_de_l_aphcq_vol10no2hiver2004.pdf.compressed.pdf
   - periode: Volume 10, numéro 3, printemps 2004
     fichier: 031_bulletin_de_l_aphcq_vol10no3printemps-ete2004.pdf.compressed.pdf
+ 
+ **Volumes 11 à 15 (2004-2009)**
+ 
   - periode: Volume 11, numéro 1, automne 2004
     fichier: 032_bulletin_de_l_aphcq_vol11no1automne2004.pdf.compressed.pdf
   - periode: Volume 11, numéro 2, hiver 2005
@@ -199,6 +207,9 @@ bulletins:
     fichier: 043_bulletin_de_l_aphcq_vol15no1hiver-printemps2009.pdf.compressed.pdf
   - periode: Volume 15, numéro 2, automne 2009
     fichier: 044_bulletin_de_l_aphcq_vol15no2automne2009.pdf.compressed.pdf
+
+**Volumes 16 à 20 (2010-2014)**
+
   - periode: Volume 16, numéro 1, hiver-printemps 2010
     fichier: 045_bulletin_de_l_aphcq_vol16no1hiver-printemps2010.pdf.compressed.pdf
   - periode: Volume 17, numéro 1, hiver 2011
@@ -219,6 +230,9 @@ bulletins:
     fichier: 053_bulletin_de_l_aphcq_vol20no2print2014.pdf.compressed.pdf
   - periode: Volume 20, numéro 3, autommne 2014
     fichier: 054_bulletin_de_l_aphcq_vol20no3aut2014.pdf.compressed.pdf
+ 
+ **Volumes 21 à 25 (2015-2019)**
+ 
   - periode: Volume 21, numéro 1, hiver 2015
     fichier: 055_bulletin_de_l_aphcq_vol21no1hiver2015.pdf.compressed.pdf
   - periode: Volume 22, numéro 1, hiver 2016
