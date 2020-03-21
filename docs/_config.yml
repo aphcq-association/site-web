@@ -52,10 +52,10 @@ sections_oranges:
   # (inscrire hands, donation ou charity)
   - icone: charity
     titre: Congrès 2020
-    texte: joignez-vous à des centaines de
-    texte2: collègues pour débattre des
-    texte3: orientations en enseignement
-    texte4: de l'Histoire.
+    texte: Avis: Annulation 
+    texte2: du Congrès 2020 en raison
+    texte3: de la pandémie de COVID-19.
+    texte4:
     href: /2020/03/10/congres-2020.html
   - icone: hands
     titre: Devenez membre
