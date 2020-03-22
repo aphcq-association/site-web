@@ -1,0 +1,47 @@
+---
+layout: page_texte
+id: admin
+image_top: /images/aphcq/5b.jpg
+titre: Guide d'administration de site
+date: 2020-01-07T12:00:00.000Z
+---
+Le code source du site web de l'APHCQ est [distribué gratuitement sur la plateforme Github](https://github.com/aphcq-association/site-web).
+
+## Pour modifier des éléments communs à toutes les page
+
+Par exemple, les items de menus peuvent être modifiés au [https://github.com/aphcq-association/site-web/blob/master/docs/_config.yml](https://github.com/aphcq-association/site-web/blob/master/docs/_config.yml).
+
+Ce document est en format YAML, et si la syntaxe YAML n'est pas respectée, le site peut arrêter de s'auto-générer, voir la section "déboguer un problème avec le site", plus bas.
+
+* [Description du langage YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
+
+## Pour modifier des page particulières
+
+Disons qu'on veut modifier la page http://aphcq.dcycleproject.org/bulletin.html, on peut modifier [https://github.com/aphcq-association/site-web/blob/master/docs/bulletin.html](https://github.com/aphcq-association/site-web/blob/master/docs/bulletin.html).
+
+Ces pages sont en format Markdown, qui pardonne beaucoup plus que le YAML: si on fait une erreur de Syntaxe en Markdown, le site ne "brisera" pas.
+
+* [Description du langage Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Outil en-ligne pour jouer avec le Markdown et voir le résultat](https://markdown-it.github.io)
+
+## Déboguer un problème avec le site
+
+Disons que nos modifications arrêtent d'être reflétées sur le site, on peut trouver la source du problème en suivant ces étapes:
+
+Optionnel: quand on fait une modification à une page, [par exemple la page Bulletins](https://github.com/aphcq-association/site-web/edit/master/docs/bulletin.html), avant de faire "Commit changes" (l'équivalent de "sauvegarder"), mettre un "message" qui décrit nos changements.
+
+<img src="/images/admin-1.png" />
+
+Plus tard, on peut voir la liste de tous les changements au site en allant dans la section "Commits" comme dans l'image suivante:
+
+<img src="/images/admin-2.png" />
+
+Si le site ne s'auto-génère plus, on peut identifier le changements à la source du problème en visitant la liste des "commits" et en identifiant le premier commit qui a un "x" rouge à côté, comme dans cette image.
+
+<img src="/images/admin-3.png" />
+
+Chaque "commit" peut être examiné en cliquant sur son identité, dans l'exemple ci-dessus, "9bc166c". Dans cet exemple précis, cela nous mène à:
+
+* https://github.com/aphcq-association/site-web/commit/9bc166c6a38d0fbe7b50a6cd2d7b4d6f5f5a5a5e
+
+Dans ce cas précis, le changement à la base de l'erreur est une erreur de syntaxe dans le document YAML (voir la section "Pour modifier des éléments communs à toutes les page", ci-dessus). Vous n'avez qu'à réparer le problème, ou, si vous ne savez pas comment, ouvrir un ticket sur GitHub et mettre le lien du problème, dans ce cas https://github.com/aphcq-association/site-web/commit/9bc166c6a38d0fbe7b50a6cd2d7b4d6f5f5a5a5e.
