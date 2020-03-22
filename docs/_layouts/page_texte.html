@@ -16,7 +16,7 @@
   <div class="welcome-wrap">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 order-2 order-lg-1">
+        <div class="col-12 {% if page.image_droite %}col-lg-6 {% endif %}order-2 order-lg-1">
           <div class="welcome-content">
             <div class="entry-content mt-5">
               {{ content | markdownify }}
@@ -30,9 +30,11 @@
           </div><!-- .welcome-content -->
         </div><!-- .col -->
 
+        {% if page.image_droite %}
         <div class="col-12 col-lg-6 order-1 order-lg-2">
           <img src="{{ page.image_droite }}" alt="welcome">
         </div><!-- .col -->
+        {% endif %}
       </div><!-- .row -->
     </div><!-- .container -->
   </div><!-- .home-page-icon-boxes -->
