@@ -6,6 +6,11 @@ a.no-underline:hover {
   text-decoration: none;
 }
 
+.footer-bar a:hover,
+.footer-bar a:visited {
+  color: #7b7b7b;
+}
+
 /** ORIGINAL **/
 
 body {

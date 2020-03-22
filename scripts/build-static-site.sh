@@ -12,4 +12,4 @@ mkdir -p ./docs/_site
 docker run --rm \
   --volume="$PWD/docs:/srv/jekyll" \
   -it jekyll/minimal:4 \
-  jekyll build --trace
+  jekyll build --trace --incremental
