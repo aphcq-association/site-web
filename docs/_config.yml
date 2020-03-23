@@ -73,8 +73,10 @@ sections_oranges:
     href: https://www.facebook.com/groups/50431211883/
 
 options_paypal:
+# Selon https://www.paypal.com/ca/for-you/fees:
+# frais de 2.9% + $0.30 CAD par transaction
   - nom: Ceci est un test
-    prix: 0.20
+    prix: 0.50
   - nom: Adhérez au APHCQ
     prix: 20.00
   - nom: Participez au congrès (membres)
