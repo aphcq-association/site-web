@@ -2075,7 +2075,7 @@ ul.tabs-nav .tab-nav.active {
 .foot-about p {
   font-size: 14px;
   line-height: 2;
-  color: {{ site.couleur_gris_text }};
+  color: #a2a1a1;
 }
 
 .foot-about ul li {
