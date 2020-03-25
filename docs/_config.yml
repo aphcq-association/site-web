@@ -85,17 +85,17 @@ sections_oranges:
 options_paypal:
 # Selon https://www.paypal.com/ca/for-you/fees:
 # frais de 2.9% + $0.30 CAD par transaction
-  - nom: Catégorie 1: 
+  - nom: "Catégorie 1: "
     prix: 50
-  - nom: Catégorie 2: 
+  - nom: "Catégorie 2: "
     prix: 25
-  - nom: Catégorie 3: 
+  - nom: "Catégorie 3: "
     prix: 25
-  - nom: Catégorie 4: 
+  - nom: "Catégorie 4: "
     prix: 50
-  - nom: Catégorie 5: 
+  - nom: "Catégorie 5: " 
     prix: 25
-  - nom: Test: 
+  - nom: "Test: "
     prix: 0.50
 
 bouton_noir:
