@@ -82,17 +82,21 @@ sections_oranges:
 options_paypal:
 # Selon https://www.paypal.com/ca/for-you/fees:
 # frais de 2.9% + $0.30 CAD par transaction
-  - nom: Ceci est un test
-    prix: 0.50
-  - nom: Adhérez au APHCQ
-    prix: 20.00
-  - nom: Participez au congrès (membres)
-    prix: 20.00
-  - nom: Adhérez et participez au congrès
-    prix: 40.00
+  - nom: Catégorie 1
+    prix: 50,00
+  - nom: Catégorie 2
+    prix: 25,00
+  - nom: Catégorie 3
+    prix: 25,00
+  - nom: Catégorie 4
+    prix: 50,00
+  - nom: Catégorie 5
+    prix: 25,00
+  - nom: Test
+    prix: 00,50
 
 bouton_noir:
-  texte: Congrès annuel
+  texte: CONGRÈS ANNUEL
   url: /2020/03/10/congres-2020.html
 
 base: /
