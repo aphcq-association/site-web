@@ -74,8 +74,8 @@ sections_oranges:
   - icone: donation
     titre: Suivez-nous
     texte: Découvrez nos activités
-    texte2: sur Facebook.
-    texte3:
+    texte2: et nos discussions
+    texte3: sur Facebook
     texte4:
     href: https://www.facebook.com/groups/50431211883/
 
@@ -112,4 +112,4 @@ sections:
     titre: Bulletin de l'APHCQ
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
-    titre: Suivez-nous sur Facebook
+    titre: Sur Facebook
