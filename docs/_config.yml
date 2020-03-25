@@ -59,7 +59,7 @@ sections_oranges:
   # (inscrire hands, donation ou charity)
   - icone: charity
     titre: Congrès 2020
-    texte: "*Avis*: Annulation"
+    texte: "AVIS: Annulation"
     texte2: du Congrès 2020 en raison
     texte3: de la pandémie de COVID-19.
     texte4:
@@ -68,7 +68,7 @@ sections_oranges:
     titre: Devenez membre
     texte: L'enseignement de l'histoire au
     texte2: collégial vous tient à coeur?
-    texte3: Devenez membre de l'APHCQ.
+    texte3: Devenez membre de l'APHCQ!
     texte4:
     href: /adherez.html
   - icone: donation
@@ -82,18 +82,18 @@ sections_oranges:
 options_paypal:
 # Selon https://www.paypal.com/ca/for-you/fees:
 # frais de 2.9% + $0.30 CAD par transaction
-  - nom: Catégorie 1
-    prix: 50,00
-  - nom: Catégorie 2
-    prix: 25,00
-  - nom: Catégorie 3
-    prix: 25,00
-  - nom: Catégorie 4
-    prix: 50,00
-  - nom: Catégorie 5
-    prix: 25,00
-  - nom: Test
-    prix: 00,50
+  - nom: Catégorie 1: 
+    prix: 50.00
+  - nom: Catégorie 2: 
+    prix: 25.00
+  - nom: Catégorie 3: 
+    prix: 25.00
+  - nom: Catégorie 4: 
+    prix: 50.00
+  - nom: Catégorie 5: 
+    prix: 25.00
+  - nom: Test: 
+    prix: 00.50
 
 bouton_noir:
   texte: CONGRÈS ANNUEL
