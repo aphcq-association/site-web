@@ -24,35 +24,38 @@ carousel:
   #   plus: plus
   #   plus_href: /exemple
   #   image: /images/aphcq/1.jpg
-  - titre: Congrès de l'APHCQ 2020
-    texte: Un moment unique pour discuter des orientations en histoire.
-    action: Inscrivez-vous
-    action_href: /2020/03/10/congres-2020.html
-    image: /images/aphcq/1c.jpg
-  - titre: L'APHCQ
+  - titre: Qu'est-ce que l'APHCQ?
     sous_titre:
-    texte: C'est 2000 personnes passionnées par leur travail
+    texte: Note mission: promouvoir l'enseignenment de l'histoire au collégial
     image: /images/aphcq/2c.jpg
     action: En savoir plus
     action_href: /apropos.html
-  - titre:
-    sous_titre: l'histoire sur le terrain
-    texte:
-    action:
+  - titre: Notre congrès annuel: un événement à ne pas manquer
+    texte: Une occasion unique de formation, de réflexion et de réseautage.
+    action: Inscrivez-vous
+    action_href: /2020/03/10/congres-2020.html
+    image: /images/aphcq/1c.jpg
+  - titre: Découvrez le Bulletin de l'APHCQ
+    sous_titre: 
+    texte: Un outil d'information et de réflexion pour nos membres
+    action: Accédez au Bulletin
     plus:
     image: /images/aphcq/3c.jpg
-  - titre:
+    action_href: /bulletin.html
+  - titre: Rejoingez une communauté professionnelle dynamique
     sous_titre: voyages
-    texte:
-    action:
+    texte: Adhérez à l'APHCQ
+    action: Devenir membre
     plus:
     image: /images/aphcq/4c.jpg
+    action_href: /adherez.html
   - titre:
     sous_titre: découvertes
-    texte:
-    action:
+    texte: Retrouvez nos membres et sympahtisants sur Facebook
+    action: Facebook
     plus:
     image: /images/aphcq/5c.jpg
+    action_href: /https://www.facebook.com/groups/50431211883/
 
 sections_oranges:
   # icone: main, coeur, ou argent
