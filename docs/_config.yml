@@ -26,7 +26,7 @@ carousel:
   #   image: /images/aphcq/1.jpg
   - titre: Qu'est-ce que l'APHCQ?
     sous_titre:
-    texte: Note mission: promouvoir l'enseignenment de l'histoire au collégial
+    texte: "Note mission: promouvoir l'enseignenment de l'histoire au collégial "
     image: /images/aphcq/2c.jpg
     action: En savoir plus
     action_href: /apropos.html
