@@ -26,7 +26,7 @@ carousel:
   #   image: /images/aphcq/1.jpg
   - titre: Qu'est-ce que l'APHCQ?
     sous_titre:
-    texte: "Note mission: promouvoir l'enseignenment de l'histoire au collégial "
+    texte: "Note mission: promouvoir l'enseignement de l'histoire au collégial "
     image: /images/aphcq/2c.jpg
     action: En savoir plus
     action_href: /apropos.html
@@ -113,7 +113,7 @@ sections:
     titre: Qui sommes-nous? / Nous contacter
   - id: adherez
     href: /adherez.html
-    titre: Devenir membre
+    titre: Adhésion
   - id: bulletin
     href: /bulletin.html
     titre: Bulletin de l'APHCQ
