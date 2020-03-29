@@ -27,14 +27,14 @@ carousel:
   - titre: Qu'est-ce que l'APHCQ?
     sous_titre:
     texte: "Notre mission: promouvoir l'enseignement de l'histoire au collégial "
-    image: /images/aphcq/2c.jpg
+    image: /images/aphcq/1c.jpg
     action: En savoir plus
     action_href: /apropos.html
   - titre: "Notre congrès annuel"
     texte: Une occasion unique de formation, de réflexion et de réseautage.
     action: Inscrivez-vous
     action_href: /2020/03/10/congres-2020.html
-    image: /images/aphcq/1c.jpg
+    image: /images/aphcq/2c.jpg
   - titre: Le *Bulletin de l'APHCQ*
     sous_titre: 
     texte: Un outil d'information et de réflexion pour nos membres
