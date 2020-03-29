@@ -35,17 +35,17 @@ carousel:
     action: Inscrivez-vous
     action_href: /2020/03/10/congres-2020.html
     image: /images/aphcq/2c.jpg
-  - titre: Le **Bulletin de l'APHCQ**
+  - titre: Le Bulletin de l'APHCQ
     sous_titre: 
     texte: Un outil d'information et de réflexion pour nos membres
     action: Accédez au Bulletin
     plus:
     image: /images/aphcq/3c.jpg
     action_href: /bulletin.html
-  - titre: Adhérez à l'APHCQ
+  - titre: Devenir membre
     sous_titre:
     texte: Joignez-vous à une communauté professionnelle dynamique!
-    action: Devenir membre
+    action: Pour devenir membre
     plus:
     image: /images/aphcq/4c.jpg
     action_href: /adherez.html
