@@ -85,15 +85,15 @@ sections_oranges:
 options_paypal:
 # Selon https://www.paypal.com/ca/for-you/fees:
 # frais de 2.9% + $0.30 CAD par transaction
-  - nom: "Catégorie 1: "
+  - nom: "Catégorie A: membre régulier subventionné"
     prix: 50
-  - nom: "Catégorie 2: "
+  - nom: "Catégorie B: membre régulier non subventionné"
     prix: 25
-  - nom: "Catégorie 3: "
+  - nom: "Catégorie C: membre associé"
     prix: 25
-  - nom: "Catégorie 4: "
+  - nom: "Catégorie D: membre étudiant"
     prix: 50
-  - nom: "Catégorie 5: " 
+  - nom: "Catégorie E: membre retraité" 
     prix: 25
   - nom: "Test: "
     prix: 0.50
