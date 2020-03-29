@@ -34,13 +34,13 @@ carousel:
     texte: Une occasion unique de formation, de réflexion et de réseautage.
     action: Inscrivez-vous
     action_href: /2020/03/10/congres-2020.html
-    image: /images/aphcq/2c.jpg
+    image: /images/aphcq/3c.jpg
   - titre: Le Bulletin
     sous_titre: 
     texte: Un outil d'information et de réflexion pour nos membres
     action: Accédez au Bulletin
     plus:
-    image: /images/aphcq/3c.jpg
+    image: /images/aphcq/2c.jpg
     action_href: /bulletin.html
   - titre: Devenir membre
     sous_titre:
