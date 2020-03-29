@@ -43,8 +43,8 @@ carousel:
     image: /images/aphcq/3c.jpg
     action_href: /bulletin.html
   - titre: Adhérez à l'APHCQ
-    sous_titre: voyages
-    texte: Joignez-vous à une communauté professionnelle dynamique
+    sous_titre:
+    texte: Joignez-vous à une communauté professionnelle dynamique!
     action: Devenir membre
     plus:
     image: /images/aphcq/4c.jpg
