@@ -50,7 +50,7 @@ carousel:
     image: /images/aphcq/4c.jpg
     action_href: /adherez.html
   - titre: Suivez-nous sur Facebook
-    sous_titre: découvertes
+    sous_titre: 
     texte: Un lieu d'échange pour nos membres et sympathisants 
     action: Facebook
     plus:
