@@ -24,7 +24,7 @@ carousel:
   #   plus: plus
   #   plus_href: /exemple
   #   image: /images/aphcq/1.jpg
-  - titre: Qu'est-ce que l'APHCQ?
+  - titre: À propos de l'APHCQ
     sous_titre:
     texte: "Notre mission: promouvoir l'enseignement de l'histoire au collégial "
     image: /images/aphcq/1c.jpg
