@@ -9,5 +9,5 @@ items:
     prix: 50
   - nom: 'Catégorie E - Membre retraité: '
     prix: 25
-  - nom: 'Test: '
-    prix: 0.5
+  - nom: Test de transaction
+    prix: '1.0'
