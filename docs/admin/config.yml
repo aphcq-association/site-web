@@ -22,19 +22,20 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: 'carousel'
     label: 'Carousel'
-    file: 'docs/_data/carousel.yml'
-    fields:
+    files:
       - label: "Carousel"
         name: "carousel"
+        file: 'docs/_data/carousel.yml'
         create: true
-        widget: "list"
         fields:
-          - {label: Titre, name: titre, widget: string}
-          - {label: Sous-titre, name: sous_titre, widget: string}
-          - {label: Texte, name: texte, widget: string}
-          - {label: Image, name: image, widget: string, default: /images/aphcq/2c.jpg}
-          - {label: "Action (texte)", name: action, widget: string, default: "En savoir plus"}
-          - {label: "Action (URL)", name: action_href, widget: string}
+          - widget: "list"
+            fields:
+              - {label: Titre, name: titre, widget: string}
+              - {label: Sous-titre, name: sous_titre, widget: string}
+              - {label: Texte, name: texte, widget: string}
+              - {label: Image, name: image, widget: string, default: /images/aphcq/2c.jpg}
+              - {label: "Action (texte)", name: action, widget: string, default: "En savoir plus"}
+              - {label: "Action (URL)", name: action_href, widget: string}
   - name: "options_paypal"
     label: "Options PayPal"
     editor:
