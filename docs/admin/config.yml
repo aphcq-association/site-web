@@ -20,15 +20,19 @@ collections:
       - { label: 'Publish Date', name: 'image_top', widget: 'string', default: '/images/aphcq/1b.jpg' }
       - { label: 'Publish Date', name: 'image_droite', widget: 'string', default: '/images/aphcq/1s.jpg' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: 'carousel'
-    label: 'Carousel'
+  - name: "carousel"
+    label: "Carousel"
+    editor:
+      preview: false
     files:
       - label: "Carousel"
         name: "carousel"
-        file: 'docs/_data/carousel.yml'
         create: true
+        file: "docs/_data/carousel.yml"
         fields:
-          - widget: "list"
+          - label: "Carousel"
+            name: "carousel"
+            widget: "list"
             fields:
               - {label: Titre, name: titre, widget: string}
               - {label: Sous-titre, name: sous_titre, widget: string}
