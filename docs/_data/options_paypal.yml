@@ -11,6 +11,3 @@ items:
     prix: 25
   - nom: 'Test: '
     prix: 0.5
-options_paypal:
-  - nom: test
-    prix: '10000'

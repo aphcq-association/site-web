@@ -31,7 +31,7 @@ collections:
         file: "docs/_data/carousel.yml"
         fields:
           - label: "Carousel"
-            name: "carousel"
+            name: "items"
             widget: "list"
             fields:
               - {label: Titre, name: titre, widget: string}
@@ -51,7 +51,7 @@ collections:
         file: "docs/_data/options_paypal.yml"
         fields:
           - label: "Options PayPal"
-            name: "options_paypal"
+            name: "items"
             widget: "list"
             fields:
               - {label: Nom, name: nom, widget: string}
@@ -67,7 +67,7 @@ collections:
         file: "docs/_data/sections_oranges.yml"
         fields:
           - label: "Sections oranges"
-            name: "sections_oranges"
+            name: "items"
             widget: "list"
             fields:
               - {label: "Icone (charity, hands ou donation)", name: icone, widget: string}
@@ -83,7 +83,7 @@ collections:
       preview: false
     files:
       - label: "Sections"
-        name: "sections"
+        name: "items"
         create: true
         file: "docs/_data/sections.yml"
         fields:
