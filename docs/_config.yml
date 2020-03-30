@@ -36,7 +36,7 @@ carousel:
     action_href: /2020/03/10/congres-2020.html
     image: /images/aphcq/3c.jpg
   - titre: Le Bulletin
-    sous_titre: 
+    sous_titre:
     texte: Un outil d'information et de réflexion pour nos membres
     action: Accédez au Bulletin
     plus:
@@ -50,8 +50,8 @@ carousel:
     image: /images/aphcq/4c.jpg
     action_href: /adherez.html
   - titre: Suivez-nous sur Facebook
-    sous_titre: 
-    texte: Un lieu d'échange pour nos membres et sympathisants 
+    sous_titre:
+    texte: Un lieu d'échange pour nos membres et sympathisants
     action: Notre page Facebook
     plus:
     image: /images/aphcq/5c.jpg
@@ -93,7 +93,7 @@ options_paypal:
     prix: 25
   - nom: "Catégorie D - Membre étudiant: "
     prix: 50
-  - nom: "Catégorie E - Membre retraité: " 
+  - nom: "Catégorie E - Membre retraité: "
     prix: 25
   - nom: "Test: "
     prix: 0.50
@@ -120,3 +120,7 @@ sections:
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
     titre: Sur Facebook
+  - id: eng
+    titre: en
+    href: /english.htm
+    classes: lang
