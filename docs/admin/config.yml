@@ -20,26 +20,21 @@ collections:
       - { label: 'Publish Date', name: 'image_top', widget: 'string', default: '/images/aphcq/1b.jpg' }
       - { label: 'Publish Date', name: 'image_droite', widget: 'string', default: '/images/aphcq/1s.jpg' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: "carousel"
-    label: "Carousel"
-    editor:
-      preview: false
-    files:
+  - name: 'carousel'
+    label: 'Carousel'
+    file: 'docs/_data/carousel.yml'
+    fields:
       - label: "Carousel"
         name: "carousel"
         create: true
-        file: "docs/_data/carousel.yml"
+        widget: "list"
         fields:
-          - label: "Carousel"
-            name: "carousel"
-            widget: "list"
-            fields:
-              - {label: Titre, name: titre, widget: string}
-              - {label: Sous-titre, name: sous_titre, widget: string}
-              - {label: Texte, name: texte, widget: string}
-              - {label: Image, name: image, widget: string, default: /images/aphcq/2c.jpg}
-              - {label: "Action (texte)", name: action, widget: string, default: "En savoir plus"}
-              - {label: "Action (URL)", name: action_href, widget: string}
+          - {label: Titre, name: titre, widget: string}
+          - {label: Sous-titre, name: sous_titre, widget: string}
+          - {label: Texte, name: texte, widget: string}
+          - {label: Image, name: image, widget: string, default: /images/aphcq/2c.jpg}
+          - {label: "Action (texte)", name: action, widget: string, default: "En savoir plus"}
+          - {label: "Action (URL)", name: action_href, widget: string}
   - name: "options_paypal"
     label: "Options PayPal"
     editor:
