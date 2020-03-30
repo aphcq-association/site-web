@@ -4,6 +4,10 @@
 
 /** CUSTOM **/
 
+blockquote {
+  padding-left: 30px;
+}
+
 a.no-underline:hover {
   text-decoration: none;
 }
