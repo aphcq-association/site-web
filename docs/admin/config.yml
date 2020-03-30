@@ -12,7 +12,7 @@ collections:
   - name: 'blog posts'
     create: true
     label: 'Blog'
-    folder: '_posts/'
+    folder: 'docs/_posts/'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
@@ -40,11 +40,8 @@ collections:
     editor:
       preview: false
     files:
-      - label: 'About Page'
-        name: 'about'
-        file: 'about.md'
+      - label: 'Adhérez'
+        name: 'adherez'
+        file: 'docs/adherez.html'
         fields:
-          - { label: 'Title', name: 'title', widget: 'hidden', default: 'About' }
-          - { label: 'permalink', name: 'permalink', widget: 'hidden', default: '/about/' }
-          - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
-          - { label: 'Body', name: 'body', widget: 'markdown' }
+          - { label: 'Titre', name: 'titre', widget: 'texte' }
