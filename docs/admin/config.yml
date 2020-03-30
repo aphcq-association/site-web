@@ -104,23 +104,28 @@ collections:
         file: 'docs/adherez.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
       - label: 'À propos'
         name: 'apropos'
         file: 'docs/apropos.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
       - label: 'Bulletin'
         name: 'bulletin'
         file: 'docs/bulletin.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
       - label: 'English'
         name: 'english'
         file: 'docs/english.htm'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
       - label: 'Adhérez'
         name: 'adherez'
         file: 'docs/adherez.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
