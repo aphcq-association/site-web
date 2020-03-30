@@ -408,7 +408,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 992px){
   .hero-content-overlay h1 {
-    font-size: 48px;
+    font-size: 36px;
   }
 
   .hero-content-overlay h4 {
