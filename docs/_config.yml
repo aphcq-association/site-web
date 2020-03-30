@@ -1,126 +1,22 @@
 ---
-titre: Association des professeures et des professeurs d’histoire des collèges du Québec
+titre: "Association des professeures et des professeurs d’histoire des collèges du Québec"
 
 couleur_gris_text: "#111"
 
-montrer_infos: non
+montrer_infos: "non"
 
-email_contact: aphcq.histoire@gmail.com
+email_contact: "aphcq.histoire@gmail.com"
 
-email_paypal: aphcq.histoire@gmail.com
+email_paypal: "aphcq.histoire@gmail.com"
 
-copyright_holder: Association des professeures et des professeurs d'histoire des collèges du Québec
+copyright_holder: "Association des professeures et des professeurs d'histoire des collèges du Québec"
 
-courte_description: L’Association des professeures et des professeurs d’histoire des collèges du Québec (APHCQ) est un organisme à but non lucratif regroupant les enseignantes et enseignants en histoire œuvrant dans le réseau collégial.
+courte_description: "L’Association des professeures et des professeurs d’histoire des collèges du Québec (APHCQ) est un organisme à but non lucratif regroupant les enseignantes et enseignants en histoire œuvrant dans le réseau collégial."
 
-facebook: https://www.facebook.com/groups/50431211883/
-
-carousel:
-  # - titre: titre
-  #   sous_titre: sous_titre
-  #   texte: texte
-  #   action: action
-  #   action_href: /exemple
-  #   plus: plus
-  #   plus_href: /exemple
-  #   image: /images/aphcq/1.jpg
-  - titre: À propos de l'APHCQ
-    sous_titre:
-    texte: "Notre mission: promouvoir l'enseignement de l'histoire au collégial "
-    image: /images/aphcq/2c.jpg
-    action: En savoir plus
-    action_href: /apropos.html
-  - titre: Notre congrès annuel
-    texte: Une occasion unique de formation, de réflexion et de réseautage.
-    action: Inscrivez-vous
-    action_href: /2020/03/10/congres-2020.html
-    image: /images/aphcq/3c.jpg
-  - titre: Le Bulletin
-    sous_titre:
-    texte: Un outil d'information et de réflexion pour nos membres
-    action: Accédez au Bulletin
-    plus:
-    image: /images/aphcq/1b.jpg
-    action_href: /bulletin.html
-  - titre: Devenir membre
-    sous_titre:
-    texte: Joignez-vous à une communauté professionnelle dynamique!
-    action: Pour devenir membre
-    plus:
-    image: /images/aphcq/4c.jpg
-    action_href: /adherez.html
-  - titre: Suivez-nous sur Facebook
-    sous_titre:
-    texte: Un lieu d'échange pour nos membres et sympathisants
-    action: Notre page Facebook
-    plus:
-    image: /images/aphcq/5c.jpg
-    action_href: /https://www.facebook.com/groups/50431211883/
-
-sections_oranges:
-  # icone: main, coeur, ou argent
-  # (inscrire hands, donation ou charity)
-  - icone: charity
-    titre: Congrès 2020
-    texte: "Avis: Annulation"
-    texte2: du Congrès 2020 en raison
-    texte3: de la pandémie de COVID-19.
-    texte4:
-    href: /2020/03/10/congres-2020.html
-  - icone: hands
-    titre: Devenez membre
-    texte: L'enseignement de l'histoire au
-    texte2: collégial vous tient à coeur?
-    texte3: Devenez membre de l'APHCQ!
-    texte4:
-    href: /adherez.html
-  - icone: donation
-    titre: Suivez-nous
-    texte: Découvrez nos activités
-    texte2: et nos discussions
-    texte3: sur Facebook
-    texte4:
-    href: https://www.facebook.com/groups/50431211883/
-
-options_paypal:
-# Selon https://www.paypal.com/ca/for-you/fees:
-# frais de 2.9% + $0.30 CAD par transaction
-  - nom: "Catégorie A - Membre régulier subventionné: "
-    prix: 50
-  - nom: "Catégorie B - Membre régulier non subventionné: "
-    prix: 25
-  - nom: "Catégorie C - Membre associé: "
-    prix: 25
-  - nom: "Catégorie D - Membre étudiant: "
-    prix: 50
-  - nom: "Catégorie E - Membre retraité: "
-    prix: 25
-  - nom: "Test: "
-    prix: 0.50
+facebook: "https://www.facebook.com/groups/50431211883/"
 
 bouton_noir:
-  texte: CONGRÈS ANNUEL
-  url: /2020/03/10/congres-2020.html
+  texte: "CONGRÈS ANNUEL"
+  url: "/2020/03/10/congres-2020.html"
 
 base: /
-
-sections:
-  - id: home
-    href: /index.html
-    titre: Accueil
-  - id: apropos
-    href: /apropos.html
-    titre: À propos de l'APHCQ
-  - id: adherez
-    href: /adherez.html
-    titre: Adhésion
-  - id: bulletin
-    href: /bulletin.html
-    titre: Bulletin de l'APHCQ
-  - id: facebook
-    href: https://www.facebook.com/groups/50431211883/
-    titre: Sur Facebook
-  - id: eng
-    titre: en
-    href: /english.htm
-    classes: lang

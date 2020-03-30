@@ -16,14 +16,14 @@
     <tr>
       <td>
         <select name="os0">
-          {% for option_paypal in site.options_paypal %}
+          {% for option_paypal in site.data.options_paypal %}
           <option value="{{ option_paypal.nom }}">{{ option_paypal.nom }} {{ option_paypal.prix | replace: ".", "," }} $</option>
           {% endfor %}
         </select>
       </td>
     </tr>
   </table>
-  {% for option_paypal in site.options_paypal %}
+  {% for option_paypal in site.data.options_paypal %}
   <input type="hidden" name="option_select{{ forloop.index }}" value="{{ option_paypal.nom }}">
   <input type="hidden" name="option_amount{{ forloop.index }}" value="{{ option_paypal.prix }}">
   {% endfor %}

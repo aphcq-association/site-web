@@ -19,7 +19,7 @@
           <h2>Liens</h2>
 
           <ul>
-            {% for section in site.sections %}
+            {% for section in site.data.sections %}
             <li><a href="{{ site.base }}{{ section.href }}">{{ section.titre }}</a></li>
             {% endfor %}
           </ul>

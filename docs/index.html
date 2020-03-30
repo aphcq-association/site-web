@@ -9,7 +9,7 @@ nav_id: home
 
   <div class="swiper-container hero-slider">
     <div class="swiper-wrapper">
-      {% for slide in site.carousel %}
+      {% for slide in site.data.carousel %}
       <div class="swiper-slide hero-content-wrap">
         <img src="{{ slide.image }}" alt="">
 
@@ -62,7 +62,7 @@ nav_id: home
     <div class="container">
       <div class="row">
 
-        {% for boite in site.sections_oranges %}
+        {% for boite in site.data.sections_oranges %}
         <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
           <a class="no-underline" href="{{ boite.href }}">
           <div class="icon-box">

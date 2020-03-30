@@ -9,32 +9,91 @@ backend:
   auth_endpoint: auth/github/alberto56
 media_folder: 'assets/uploads'
 collections:
-  - name: 'blog posts'
+  - name: 'articles'
     create: true
-    label: 'Blog'
+    label: 'Article'
     folder: 'docs/_posts/'
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Mise en page', name: 'layout', widget: 'hidden', default: 'page_texte' }
+      - { label: 'Titre', name: 'titre', widget: 'string' }
+      - { label: 'Publish Date', name: 'image_top', widget: 'string', default: '/images/aphcq/1b.jpg' }
+      - { label: 'Publish Date', name: 'image_droite', widget: 'string', default: '/images/aphcq/1s.jpg' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: "members"
-    label: "Members"
+  - name: "carousel"
+    label: "Carousel"
     editor:
       preview: false
     files:
-      - label: "Members"
-        name: "members"
+      - label: "Carousel"
+        name: "carousel"
         create: true
-        file: "_data/members.yml"
+        file: "docs/_data/carousel.yml"
         fields:
-          - label: "Members"
-            name: "items"
+          - label: "Carousel"
+            name: "carousel"
             widget: "list"
             fields:
-              - {label: Name, name: name, widget: string}
-              - {label: "Github Username", name: github, widget: string}
+              - {label: Titre, name: titre, widget: string}
+              - {label: Sous-titre, name: sous_titre, widget: string}
+              - {label: Texte, name: texte, widget: string}
+              - {label: Image, name: image, widget: string, default: /images/aphcq/2c.jpg}
+              - {label: "Action (texte)", name: action, widget: string, default: "En savoir plus"}
+              - {label: "Action (URL)", name: action_href, widget: string}
+  - name: "options_paypal"
+    label: "Options PayPal"
+    editor:
+      preview: false
+    files:
+      - label: "Options PayPal"
+        name: "options_paypal"
+        create: true
+        file: "docs/_data/options_paypal.yml"
+        fields:
+          - label: "Options PayPal"
+            name: "options_paypal"
+            widget: "list"
+            fields:
+              - {label: Nom, name: nom, widget: string}
+              - {label: Prix, name: prix, widget: string}
+  - name: "sections_oranges"
+    label: "Sections oranges"
+    editor:
+      preview: false
+    files:
+      - label: "Sections oranges"
+        name: "sections_oranges"
+        create: true
+        file: "docs/_data/sections_oranges.yml"
+        fields:
+          - label: "Sections oranges"
+            name: "sections_oranges"
+            widget: "list"
+            fields:
+              - {label: "Icone (charity, hands ou donation)", name: icone, widget: string}
+              - {label: Titre, name: titre, widget: string}
+              - {label: Texte 1, name: texte, widget: string}
+              - {label: Texte 2, name: texte2, widget: string}
+              - {label: Texte 3, name: texte3, widget: string}
+              - {label: Texte 4, name: texte4, widget: string}
+              - {label: HREF, name: href, widget: string}
+  - name: "sections"
+    label: "Sections"
+    editor:
+      preview: false
+    files:
+      - label: "Sections"
+        name: "sections"
+        create: true
+        file: "docs/_data/sections.yml"
+        fields:
+          - label: "Sections"
+            name: "sections"
+            widget: "list"
+            fields:
+              - {label: "Identité", name: id, widget: string}
+              - {label: Titre, name: titre, widget: string}
+              - {label: HREF, name: href, widget: string}
   - name: 'pages'
     label: 'Pages'
     editor:
@@ -59,7 +118,7 @@ collections:
         name: 'english'
         file: 'docs/english.htm'
         fields:
-          - { label: 'Titre', name: 'titre', widget: string }          
+          - { label: 'Titre', name: 'titre', widget: string }
       - label: 'Adhérez'
         name: 'adherez'
         file: 'docs/adherez.html'
