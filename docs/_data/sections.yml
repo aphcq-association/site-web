@@ -16,5 +16,5 @@ items:
     titre: Sur Facebook
   - id: eng
     titre: ENG
-    href: /english.htm
+    href: /english.html
     classes: lang

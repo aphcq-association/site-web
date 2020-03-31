@@ -119,7 +119,7 @@ collections:
           - { label: 'Corps', name: 'body', widget: 'markdown' }
       - label: 'Page English'
         name: 'english'
-        file: 'docs/english.htm'
+        file: 'docs/english.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
