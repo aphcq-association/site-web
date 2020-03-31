@@ -22,17 +22,17 @@ collections:
   #     - { label: 'Publish Date', name: 'image_top', widget: 'string', default: '/media/1b.jpg' }
   #     - { label: 'Publish Date', name: 'image_droite', widget: 'string', default: '/media/1s.jpg' }
   #     - { label: 'Body', name: 'body', widget: 'markdown' }
-  - name: "carousel"
-    label: "Carousel"
+  - name: "carrousel"
+    label: "Carrousel"
     editor:
       preview: false
     files:
-      - label: "Carousel"
-        name: "carousel"
+      - label: "Carrousel"
+        name: "carrousel"
         create: true
-        file: "docs/_data/carousel.yml"
+        file: "docs/_data/carrousel.yml"
         fields:
-          - label: "Carousel"
+          - label: "Carrousel"
             name: "items"
             widget: "list"
             fields:
