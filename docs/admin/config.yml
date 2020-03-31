@@ -9,17 +9,18 @@ backend:
   auth_endpoint: auth/github/alberto56
 media_folder: 'docs/media'
 collections:
-  - name: 'articles'
-    create: true
-    label: 'Article'
-    folder: 'docs/_posts/'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    fields:
-      - { label: 'Mise en page', name: 'layout', widget: 'hidden', default: 'page_texte' }
-      - { label: 'Titre', name: 'titre', widget: 'string' }
-      - { label: 'Publish Date', name: 'image_top', widget: 'string', default: '/media/1b.jpg' }
-      - { label: 'Publish Date', name: 'image_droite', widget: 'string', default: '/media/1s.jpg' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+  # Fonction à remettre au besoin.
+  # - name: 'articles'
+  #   create: true
+  #   label: 'Article'
+  #   folder: 'docs/_posts/'
+  #   slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+  #   fields:
+  #     - { label: 'Mise en page', name: 'layout', widget: 'hidden', default: 'page_texte' }
+  #     - { label: 'Titre', name: 'titre', widget: 'string' }
+  #     - { label: 'Publish Date', name: 'image_top', widget: 'string', default: '/media/1b.jpg' }
+  #     - { label: 'Publish Date', name: 'image_droite', widget: 'string', default: '/media/1s.jpg' }
+  #     - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "carousel"
     label: "Carousel"
     editor:
@@ -35,11 +36,11 @@ collections:
             widget: "list"
             fields:
               - {label: Titre, name: titre, widget: string}
-              - {label: Sous-titre, name: sous_titre, widget: string}
+              - {label: Sous-titre, name: sous_titre, widget: string, required: false}
               - {label: Texte, name: texte, widget: string}
               - {label: Image, name: image, widget: string, default: /media/2c.jpg}
-              - {label: "Action (texte)", name: action, widget: string, default: "En savoir plus"}
-              - {label: "Action (URL)", name: action_href, widget: string}
+              - {label: "Action (texte)", name: action, widget: string, default: "En savoir plus", required: false}
+              - {label: "Action (URL)", name: action_href, widget: string, required: false}
   - name: "options_paypal"
     label: "Options PayPal"
     editor:
@@ -72,10 +73,10 @@ collections:
             fields:
               - {label: "Icone (charity, hands ou donation)", name: icone, widget: string}
               - {label: Titre, name: titre, widget: string}
-              - {label: Texte 1, name: texte, widget: string}
-              - {label: Texte 2, name: texte2, widget: string}
-              - {label: Texte 3, name: texte3, widget: string}
-              - {label: Texte 4, name: texte4, widget: string}
+              - {label: Texte 1, name: texte, widget: string, required: false}
+              - {label: Texte 2, name: texte2, widget: string, required: false}
+              - {label: Texte 3, name: texte3, widget: string, required: false}
+              - {label: Texte 4, name: texte4, widget: string, required: false}
               - {label: HREF, name: href, widget: string}
   - name: "sections"
     label: "Sections"
@@ -88,12 +89,13 @@ collections:
         file: "docs/_data/sections.yml"
         fields:
           - label: "Sections"
-            name: "sections"
+            name: "items"
             widget: "list"
             fields:
               - {label: "Identité", name: id, widget: string}
               - {label: Titre, name: titre, widget: string}
               - {label: HREF, name: href, widget: string}
+              - {label: classes css, name: classes, widget: string, required: false}
   - name: 'pages'
     label: 'Pages'
     editor:
@@ -114,6 +116,12 @@ collections:
       - label: 'Page Bulletin'
         name: 'bulletin'
         file: 'docs/bulletin.html'
+        fields:
+          - { label: 'Titre', name: 'titre', widget: string }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
+      - label: 'Page Congrès'
+        name: 'congres'
+        file: 'docs/congres.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
