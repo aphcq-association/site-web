@@ -1,7 +1,7 @@
 items:
   - titre: À propos de l'APHCQ
-    sous_titre: null
-    texte: 'Notre mission: promouvoir l''enseignement de l''histoire au collégial '
+    sous_titre: 'Notre mission: promouvoir l''enseignement de l''histoire au collégial '
+    texte: ''
     image: /media/1b.jpg
     action: En savoir plus
     action_href: /apropos.html
