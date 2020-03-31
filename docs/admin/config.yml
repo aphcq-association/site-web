@@ -99,31 +99,31 @@ collections:
     editor:
       preview: false
     files:
-      - label: 'Adhérez'
+      - label: 'Page Adhérez'
         name: 'adherez'
         file: 'docs/adherez.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-      - label: 'À propos'
+      - label: 'Page À propos'
         name: 'apropos'
         file: 'docs/apropos.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-      - label: 'Bulletin'
+      - label: 'Page Bulletin'
         name: 'bulletin'
         file: 'docs/bulletin.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-      - label: 'English'
+      - label: 'Page English'
         name: 'english'
         file: 'docs/english.htm'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-      - label: 'Guide administratif'
+      - label: 'Page Guide administratif'
         name: 'adherez'
         file: 'docs/guide-admin.html'
         fields:
