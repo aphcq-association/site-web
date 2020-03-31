@@ -3,7 +3,14 @@ set -e
 
 docker kill aphcq 2>/dev/null || true
 docker rm aphcq 2>/dev/null || true
-rm -rf ./docs/_site
-rm -rf ./docs/.jekyll-cache
-rm -rf ./docs/.jekyll-metadata
+
+# If we try to remove ./docs/_site, ./docs/.jekyll* here, we might
+# get permission denied, for example on CircleCI. Removing these items within
+# the same container used to create them makes it more likely for this to
+# work.
+docker run --rm \
+  --volume="$PWD/docs:/srv/jekyll" \
+  -it jekyll/minimal:4 \
+  /bin/bash -c 'rm -rf /srv/jekyll/_site .jekyll*'
+
 echo 'Environment destroyed.'
