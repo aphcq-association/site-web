@@ -108,33 +108,45 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - { label: 'Image top', name: 'image_top', widget: 'string', required: false }
+          - { label: 'Image droite', name: 'image_droite', widget: 'string', required: false }
       - label: 'Page À propos'
         name: 'apropos'
         file: 'docs/apropos.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - { label: 'Image top', name: 'image_top', widget: 'string', required: false }
+          - { label: 'Image droite', name: 'image_droite', widget: 'string', required: false }
       - label: 'Page Bulletin'
         name: 'bulletin'
         file: 'docs/bulletin.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - { label: 'Image top', name: 'image_top', widget: 'string', required: false }
+          - { label: 'Image droite', name: 'image_droite', widget: 'string', required: false }
       - label: 'Page Congrès'
         name: 'congres'
         file: 'docs/congres.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - { label: 'Image top', name: 'image_top', widget: 'string', required: false }
+          - { label: 'Image droite', name: 'image_droite', widget: 'string', required: false }
       - label: 'Page English'
         name: 'english'
         file: 'docs/english.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - { label: 'Image top', name: 'image_top', widget: 'string', required: false }
+          - { label: 'Image droite', name: 'image_droite', widget: 'string', required: false }
       - label: 'Page Guide administratif'
         name: 'guide-admin'
         file: 'docs/guide-admin.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - { label: 'Image top', name: 'image_top', widget: 'string', required: false }
+          - { label: 'Image droite', name: 'image_droite', widget: 'string', required: false }
