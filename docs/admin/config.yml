@@ -8,6 +8,7 @@ backend:
   base_url: https://auth.static.dcycle.com
   auth_endpoint: auth/github/alberto56
 media_folder: 'docs/media'
+public_folder: "/media"
 collections:
   # Fonction à remettre au besoin.
   # - name: 'articles'
