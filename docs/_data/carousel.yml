@@ -1,41 +1,33 @@
 items:
-  # - titre: titre
-  #   sous_titre: sous_titre
-  #   texte: texte
-  #   action: action
-  #   action_href: /exemple
-  #   plus: plus
-  #   plus_href: /exemple
-  #   image: /media/1.jpg
   - titre: À propos de l'APHCQ
-    sous_titre:
-    texte: "Notre mission: promouvoir l'enseignement de l'histoire au collégial "
+    sous_titre: null
+    texte: 'Notre mission: promouvoir l''enseignement de l''histoire au collégial '
     image: /media/1b.jpg
-    action: En savoir plus
+    action: En savoir pluss
     action_href: /apropos.html
   - titre: Notre congrès annuel
-    texte: Une occasion unique de formation, de réflexion et de réseautage.
+    texte: 'Une occasion unique de formation, de réflexion et de réseautage.'
     action: Inscrivez-vous
     action_href: /congres.html
     image: /media/3c.jpg
   - titre: Le Bulletin
-    sous_titre:
+    sous_titre: null
     texte: Un outil d'information et de réflexion pour nos membres
     action: Accédez au Bulletin
-    plus:
+    plus: null
     image: /media/2c.jpg
     action_href: /bulletin.html
   - titre: Devenir membre
-    sous_titre:
+    sous_titre: null
     texte: Joignez-vous à une communauté professionnelle dynamique!
     action: Pour devenir membre
-    plus:
+    plus: null
     image: /media/4c.jpg
     action_href: /adherez.html
   - titre: Suivez-nous sur Facebook
-    sous_titre:
+    sous_titre: null
     texte: Un lieu d'échange pour nos membres et sympathisants
     action: Notre page Facebook
-    plus:
+    plus: null
     image: /media/5c.jpg
-    action_href: https://www.facebook.com/groups/50431211883/
+    action_href: 'https://www.facebook.com/groups/50431211883/'
