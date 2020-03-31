@@ -1,24 +1,22 @@
 items:
-  # icone: main, coeur, ou argent
-  # (inscrire hands, donation ou charity)
   - icone: charity
     titre: Congrès 2020
-    texte: "Avis: Annulation"
+    texte: 'Avis: Annulation'
     texte2: du Congrès 2020 en raison
-    texte3: de la pandémie de COVID-19.
-    texte4:
+    texte3: de l'épidémie de COVID-19.
+    texte4: null
     href: /congres.html
   - icone: hands
     titre: Devenez membre
     texte: L'enseignement de l'histoire au
     texte2: collégial vous tient à coeur?
     texte3: Devenez membre de l'APHCQ!
-    texte4:
+    texte4: null
     href: /adherez.html
   - icone: donation
     titre: Suivez-nous
     texte: Découvrez nos activités
     texte2: et nos discussions
     texte3: sur Facebook
-    texte4:
-    href: https://www.facebook.com/groups/50431211883/
+    texte4: null
+    href: 'https://www.facebook.com/groups/50431211883/'
