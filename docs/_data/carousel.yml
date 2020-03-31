@@ -10,7 +10,7 @@ items:
     action: Inscrivez-vous
     action_href: /congres.html
     image: /media/3c.jpg
-  - titre: Le Bulletin
+  - titre: Le Bulletin de l'APHCQ
     sous_titre: null
     texte: Un outil d'information et de réflexion pour nos membres
     action: Accédez au Bulletin
