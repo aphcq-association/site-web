@@ -10,7 +10,7 @@ items:
   - titre: À propos de l'APHCQ
     sous_titre:
     texte: "Notre mission: promouvoir l'enseignement de l'histoire au collégial "
-    image: /images/aphcq/2c.jpg
+    image: /images/aphcq/1b.jpg
     action: En savoir plus
     action_href: /apropos.html
   - titre: Notre congrès annuel
@@ -23,7 +23,7 @@ items:
     texte: Un outil d'information et de réflexion pour nos membres
     action: Accédez au Bulletin
     plus:
-    image: /images/aphcq/1b.jpg
+    image: /images/aphcq/2c.jpg
     action_href: /bulletin.html
   - titre: Devenir membre
     sous_titre:
