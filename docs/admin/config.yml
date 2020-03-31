@@ -124,7 +124,7 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
       - label: 'Page Guide administratif'
-        name: 'adherez'
+        name: 'guide-admin'
         file: 'docs/guide-admin.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
