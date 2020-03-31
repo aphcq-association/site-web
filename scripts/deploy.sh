@@ -1,9 +1,8 @@
 #!/bin/bash
 set -e
 
-./scripts/build-static-site.sh
-
 ./scripts/destroy.sh
+./scripts/build-static-site.sh
 docker run --rm -dit --name aphcq -p 8081:80 -v "$PWD/docs/_site":/usr/local/apache2/htdocs/ httpd:2.4
 
 echo ""

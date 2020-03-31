@@ -9,7 +9,7 @@
         {% endif %}
         <div class="col-12 col-md-6 col-lg-{{ largeurcol }}">
           <div class="foot-about">
-            <h2><a class="foot-logo" href="#"><img src="/images/logo-blanc-77.png" alt=""></a></h2>
+            <h2><a class="foot-logo" href="#"><img src="/media/logo-blanc-77.png" alt=""></a></h2>
 
             <p>{{ site.courte_description }}</p>
           </div><!-- .foot-about -->
@@ -20,7 +20,7 @@
 
           <ul>
             {% for section in site.data.sections.items %}
-            <li><a href="{{ site.base }}{{ section.href }}">{{ section.titre }}</a></li>
+            <li><a href="{{ section.href }}">{{ section.titre }}</a></li>
             {% endfor %}
           </ul>
         </div><!-- .col -->

@@ -5,4 +5,5 @@
 set -e
 
 ./scripts/deploy.sh
+./scripts/check-broken-links.sh 
 ./scripts/destroy.sh
