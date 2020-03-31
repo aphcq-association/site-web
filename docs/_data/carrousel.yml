@@ -10,7 +10,7 @@ items:
     action: Inscrivez-vous
     action_href: /congres.html
     image: /media/3c.jpg
-    sous_titre: 'Pour se former, réféchir et se réseauter'
+    sous_titre: Pour se former et se réseauter
   - titre: Le Bulletin de l'APHCQ
     sous_titre: Un outil d'information pour nos membres
     texte: ''
@@ -18,10 +18,10 @@ items:
     plus: null
     image: /media/2c.jpg
     action_href: /bulletin.html
-  - titre: Devenir membre
-    sous_titre: Rejoingnez une communauté professionnelle dynamique!
+  - titre: Devenez membre
+    sous_titre: d'une communauté professionnelle dynamique
     texte: ''
-    action: Pour devenir membre
+    action: Pour adhérer
     plus: null
     image: /media/4c.jpg
     action_href: /adherez.html
