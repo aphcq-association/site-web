@@ -11,9 +11,9 @@ items:
     action_href: /congres.html
     image: /media/3c.jpg
     sous_titre: Notre congrès annuel
-  - titre: Le Bulletin de l'APHCQ
-    sous_titre: Un outil d'information et de réflexion pour nos membres
-    texte: ''
+  - titre: ''
+    sous_titre: Le Bulletin de l'APHCQ
+    texte: Un outil d'information et de réflexion pour nos membres
     action: Accédez au Bulletin
     plus: null
     image: /media/2c.jpg
