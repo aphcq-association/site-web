@@ -79,16 +79,16 @@ collections:
               - {label: Texte 4, name: texte4, widget: string, required: false}
               - {label: HREF, name: href, widget: string}
   - name: "sections"
-    label: "Sections"
+    label: "Items de menu"
     editor:
       preview: false
     files:
-      - label: "Sections"
-        name: "items"
+      - label: "Items de menu"
+        name: "sections"
         create: true
         file: "docs/_data/sections.yml"
         fields:
-          - label: "Sections"
+          - label: "Items de menu"
             name: "items"
             widget: "list"
             fields:
