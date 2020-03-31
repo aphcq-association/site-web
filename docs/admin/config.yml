@@ -123,9 +123,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-      - label: 'Adhérez'
+      - label: 'Guide administratif'
         name: 'adherez'
-        file: 'docs/adherez.html'
+        file: 'docs/guide-admin.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
