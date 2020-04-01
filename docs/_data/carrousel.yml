@@ -26,9 +26,9 @@ items:
     image: /media/4c.jpg
     action_href: /adherez.html
   - titre: ''
-    sous_titre: Suivez-nous sur Facebook
+    sous_titre: L'APHCQ sur Facebook
     texte: Participez aux discussions entre les membres et les sympathisants
-    action: Notre page Facebook
+    action: Suivez-nous sur Facebook
     plus: null
     image: /media/5c.jpg
     action_href: 'https://www.facebook.com/groups/50431211883/'
