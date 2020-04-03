@@ -9,5 +9,5 @@ items:
     prix: 50
   - nom: 'Catégorie E - Membre retraité: '
     prix: 25
-  - nom: Test de transaction
+  - nom: "Test de transaction avec accents: été grêve régulier"
     prix: '1.0'
