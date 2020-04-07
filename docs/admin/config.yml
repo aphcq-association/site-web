@@ -151,3 +151,19 @@ collections:
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
           - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+      - label: 'Merci pour votre achat'
+        name: 'merci-pour-votre-achat'
+        file: 'docs/merci-pour-votre-achat.html'
+        fields:
+          - { label: 'Titre', name: 'titre', widget: string }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+      - label: 'Achat annulé'
+        name: 'achat-annule'
+        file: 'docs/achat-annule.html'
+        fields:
+          - { label: 'Titre', name: 'titre', widget: string }
+          - { label: 'Corps', name: 'body', widget: 'markdown' }
+          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
