@@ -8,6 +8,10 @@
   display: none;
 }
 
+.entry-content a {
+  font-weight: bold;
+}
+
 blockquote {
   padding-left: 30px;
 }
