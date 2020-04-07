@@ -55,3 +55,15 @@ Dans ce cas précis, le changement à la base de l'erreur est une erreur de synt
 * Pleine taille (code c): 1920 x 832, par exemple http://aphcq.dcycleproject.org/media/1c.jpg
 * Petite taille (code s): 558 x 329, par exemple http://aphcq.dcycleproject.org/media/1c.jpg
 * Bannière (code (b): 1920 x 248, par exmple http://aphcq.dcycleproject.org/media/1b.jpg
+
+## Technologie utilisée
+
+* [GitHub](https://github.com) pour le code source.
+* [GitHub Pages](https://pages.github.com) pour l'hébergement.
+* [NetlifyCMS](https://www.netlifycms.org) pour l'interface administrative.
+* [Jekyll](https://jekyllrb.com) pour la génération de site statique.
+* [Dcycle Static](https://static.dcycle.com) pour l'authentification à Netlify. Dcycle Static utilise
+
+GitHub a deux types de comptes, le compte "personnel" avec nom d'utilisateur et un mot de passe, et le compte "organisation" comem par exemple "aphcq-association" auqeul plusieurs comptes personnels peuvent avoir accès.
+
+Dcycle static requier qu'un compte personnel soit désigné comme principal pour un site web. Ce compte, au moment d'écrire ces lignes, est [le compte d'alberto56, le développeur web](https://github.com/aphcq-association/site-web/blob/master/docs/admin/config.yml#L9-L10). Ce compte, et le serveur d'authentification à Netlify, peuvent être modifiés en tout temps, dans l'objectif d'éviter la dépendance envers un fournisseur ("vendor lock-in"); [voici les instructions pour le faire](https://preview-auth-doc--netlify-cms-www.netlify.com/docs/authentication-backends/).
