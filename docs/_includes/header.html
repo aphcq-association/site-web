@@ -26,10 +26,10 @@
              <div class="branding-titre">{{ site.titre }}</div>
           </div><!-- .site-branding -->
 
-          <nav class="site-navigation d-flex justify-content-end align-items-center">
+          <nav class="site-navigation d-flex justify-content-end align-items-center site-navigation-haut">
             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
               {% for section in site.data.sections.items %}
-              <li{% if section.id == page.nav_id %} class="current-menu-item{% if section.classes %} {{ section.classes }}{% endif %}"{% endif %}>
+              <li class="{% if section.id == page.nav_id %}current-menu-item{% endif %}{% if section.classes %} {{ section.classes }}{% endif %}">
                 <a href="{{ section.href }}">{{ section.titre }}</a>
               </li>
               {% endfor %}

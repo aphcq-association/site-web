@@ -4,6 +4,10 @@
 
 /** CUSTOM **/
 
+.site-navigation-haut .cacher-en-haut {
+  display: none;
+}
+
 blockquote {
   padding-left: 30px;
 }

@@ -14,6 +14,10 @@ items:
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
     titre: Sur Facebook
+  - id: congres
+    href: /congres.html
+    titre: Congrès annuel
+    classes: cacher-en-haut
   - id: eng
     titre: ENG
     href: /english.html
