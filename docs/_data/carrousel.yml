@@ -5,6 +5,7 @@ items:
     image: /media/1b.jpg
     action: En savoir plus
     action_href: /apropos.html
+    image_exp: /media/10.jpg
   - titre: ''
     texte: Une occasion unique de formation et de réseautage
     action: Inscrivez-vous
