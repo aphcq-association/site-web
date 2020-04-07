@@ -167,8 +167,3 @@ collections:
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
           - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
-      - label: 'Licence'
-        name: 'licence'
-        file: 'LICENSE'
-        fields:
-          - { label: 'Corps', name: 'body', widget: 'text' }
