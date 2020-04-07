@@ -10,7 +10,7 @@ docker rm aphcq 2>/dev/null || true
 # work.
 docker run --rm \
   --volume="$PWD/docs:/srv/jekyll" \
-  -it jekyll/minimal:4 \
+  jekyll/minimal:4 \
   /bin/bash -c 'rm -rf /srv/jekyll/_site .jekyll*'
 
 echo 'Environment destroyed.'

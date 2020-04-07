@@ -17,5 +17,5 @@ mkdir -p ./docs/_site
 # If you change the image here also change it in ./scripts/deploy.sh
 docker run --rm \
   --volume="$PWD/docs:/srv/jekyll" \
-  -it jekyll/minimal:4 \
+  jekyll/minimal:4 \
   jekyll build --trace --incremental
