@@ -76,10 +76,10 @@ nav_id: home
             </header>
 
             <div class="entry-content">
-              <p>{{ boite.texte }}<br/>
-              &nbsp;{{ boite.texte2 }}&nbsp;<br/>
-              &nbsp;{{ boite.texte3 }}&nbsp;<br/>
-              &nbsp;{{ boite.texte4 }}&nbsp;</p>
+              <p>{{ boite.texte | markdownify }}<br/>
+              &nbsp;{{ boite.texte2 | markdownify }}&nbsp;<br/>
+              &nbsp;{{ boite.texte3 | markdownify }}&nbsp;<br/>
+              &nbsp;{{ boite.texte4 | markdownify }}&nbsp;</p>
             </div>
           </div>
           </a>
