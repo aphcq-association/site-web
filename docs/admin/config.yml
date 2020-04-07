@@ -41,6 +41,7 @@ collections:
               - {label: Sous-titre, name: sous_titre, widget: string, required: false}
               - {label: Texte, name: texte, widget: string, required: false}
               - {label: Image, name: image, widget: string, default: /media/2c.jpg}
+              - {label: Image (expériemental), name: image_exp, widget: image, required: false}
               - {label: "Action (texte)", name: action, widget: string, default: "En savoir plus", required: false}
               - {label: "Action (URL)", name: action_href, widget: string, required: false}
   - name: "options_paypal"
