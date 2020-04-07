@@ -4,6 +4,16 @@
 
 /** CUSTOM **/
 
+.branding-titre {
+  display: none;
+}
+
+@media screen and (min-width: 1200px){
+  .branding-titre {
+    display: block;
+  }
+}
+
 .site-navigation-haut .cacher-en-haut {
   display: none;
 }
