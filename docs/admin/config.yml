@@ -135,6 +135,12 @@ collections:
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
           - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+          - label: "Image droite expérimental"
+            name: "image_droite_experimental"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "image", name: image, widget: image, required: false}
       - label: 'Page English'
         name: 'english'
         file: 'docs/english.html'
