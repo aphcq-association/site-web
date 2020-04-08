@@ -22,4 +22,16 @@
 
   <!-- Styles -->
   <link rel="stylesheet" href="/style.css?token={{ site.time | date: '%s' }}">
+
+  {% if page.offsets %}
+  <style>
+    {% for offset in page.offsets %}
+    @media screen and (min-width: {{ offset.minwidth }}px){
+      .page-header {
+        background-position-y: -{{ offset.offset }}px !important;
+      }
+    }
+    {% endfor %}
+  </style>
+  {% endif %}
 </head>
