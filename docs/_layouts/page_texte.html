@@ -32,7 +32,9 @@
 
         {% if page.image_droite %}
         <div class="col-12 col-lg-6 order-1 order-lg-2">
-          <img src="{{ page.image_droite }}" alt="welcome">
+          {% for image in page.image_droite %}
+          <img src="{{ image.image }}" alt="{{ image.alt }}">
+          {% endfor %}
         </div><!-- .col -->
         {% endif %}
       </div><!-- .row -->

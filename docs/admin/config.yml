@@ -110,7 +110,13 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
-          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+          - label: "Image droite"
+            name: "image_droite"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "image", name: image, widget: image, required: false}
+              - {label: "décrire l'image pour personne non-voyantes", name: image, widget: string, required: false}
       - label: 'Page À propos'
         name: 'apropos'
         file: 'docs/apropos.html'
@@ -118,7 +124,12 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
-          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+          - label: "Image droite"
+            name: "image_droite"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "image", name: image, widget: image, required: false}
       - label: 'Page Bulletin'
         name: 'bulletin'
         file: 'docs/bulletin.html'
@@ -126,7 +137,12 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
-          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+          - label: "Image droite"
+            name: "image_droite"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "image", name: image, widget: image, required: false}
       - label: 'Page Congrès'
         name: 'congres'
         file: 'docs/congres.html'
@@ -134,9 +150,8 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
-          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
-          - label: "Image droite expérimental"
-            name: "image_droite_experimental"
+          - label: "Image droite"
+            name: "image_droite"
             widget: "list"
             required: false
             fields:
@@ -148,7 +163,12 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
-          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+          - label: "Image droite"
+            name: "image_droite"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "image", name: image, widget: image, required: false}
       - label: 'Page Guide administratif'
         name: 'guide-admin'
         file: 'docs/guide-admin.html'
@@ -156,7 +176,12 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
-          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+          - label: "Image droite"
+            name: "image_droite"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "image", name: image, widget: image, required: false}
       - label: 'Merci pour votre achat'
         name: 'merci-pour-votre-achat'
         file: 'docs/merci-pour-votre-achat.html'
@@ -164,7 +189,12 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
-          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+          - label: "Image droite"
+            name: "image_droite"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "image", name: image, widget: image, required: false}
       - label: 'Achat annulé'
         name: 'achat-annule'
         file: 'docs/achat-annule.html'
@@ -172,4 +202,9 @@ collections:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
           - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
-          - { label: 'Image droite', name: 'image_droite', widget: 'image', required: false }
+          - label: "Image droite"
+            name: "image_droite"
+            widget: "list"
+            required: false
+            fields:
+              - {label: "image", name: image, widget: image, required: false}
