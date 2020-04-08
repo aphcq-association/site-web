@@ -109,7 +109,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
+          - {label: "décrire l'image du haut pour personne non-voyantes", name: alt, widget: string, required: false}
+          - {label: "décaler l'image du haut (nombre de pixels)", name: number, widget: number, required: false}
           - label: "Image droite"
             name: "image_droite"
             widget: "list"
@@ -123,7 +125,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
+          - {label: "décrire l'image du haut pour personne non-voyantes", name: alt, widget: string, required: false}
+          - {label: "décaler l'image du haut (nombre de pixels)", name: number, widget: number, required: false}
           - label: "Image droite"
             name: "image_droite"
             widget: "list"
@@ -137,7 +141,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
+          - {label: "décrire l'image du haut pour personne non-voyantes", name: alt, widget: string, required: false}
+          - {label: "décaler l'image du haut (nombre de pixels)", name: number, widget: number, required: false}
           - label: "Image droite"
             name: "image_droite"
             widget: "list"
@@ -151,7 +157,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
+          - {label: "décrire l'image du haut pour personne non-voyantes", name: alt, widget: string, required: false}
+          - {label: "décaler l'image du haut (nombre de pixels)", name: number, widget: number, required: false}
           - label: "Image droite"
             name: "image_droite"
             widget: "list"
@@ -165,7 +173,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
+          - {label: "décrire l'image du haut pour personne non-voyantes", name: alt, widget: string, required: false}
+          - {label: "décaler l'image du haut (nombre de pixels)", name: number, widget: number, required: false}
           - label: "Image droite"
             name: "image_droite"
             widget: "list"
@@ -179,7 +189,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
+          - {label: "décrire l'image du haut pour personne non-voyantes", name: alt, widget: string, required: false}
+          - {label: "décaler l'image du haut (nombre de pixels)", name: number, widget: number, required: false}
           - label: "Image droite"
             name: "image_droite"
             widget: "list"
@@ -193,7 +205,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
+          - {label: "décrire l'image du haut pour personne non-voyantes", name: alt, widget: string, required: false}
+          - {label: "décaler l'image du haut (nombre de pixels)", name: number, widget: number, required: false}
           - label: "Image droite"
             name: "image_droite"
             widget: "list"
@@ -207,7 +221,9 @@ collections:
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
-          - { label: 'Image top', name: 'image_top', widget: 'image', required: false }
+          - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
+          - {label: "décrire l'image du haut pour personne non-voyantes", name: alt, widget: string, required: false}
+          - {label: "décaler l'image du haut (nombre de pixels)", name: number, widget: number, required: false}
           - label: "Image droite"
             name: "image_droite"
             widget: "list"
