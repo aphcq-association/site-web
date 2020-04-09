@@ -5,57 +5,160 @@ titre: Guide d'administration du site
 image_top: /media/5b.jpg
 date: 2020-01-07T12:00:00.000Z
 ---
-Le code source du site web de l'APHCQ est [distribué gratuitement sur la plateforme Github](https://github.com/aphcq-association/site-web).
 
-## Interface administrative du site
+<a name="tm"></a>
 
-[Rendez-vous à la section "admin"](/admin) puis connectez-vous avec votre compte GitHub. Le système utilise le CMS ["NetlifyCMS"](https://www.netlifycms.org).
+Table des matières
+-----
 
-## Pour modifier des éléments communs à toutes les page
+* [1. Informations générales et liens utiles](#1)
+* [2. Pour accéder au présent guide en ligne](#2)
+* [3. Pour modifier le contenu du site web](#3)
+  * [3.1. Prérequis](#3.1)
+  * [3.2. Pour modifier des éléments communs à toutes les pages](#3.2)
+  * [3.3. Pour modifier des pages particulières / Insérer des hyperliens](#3.3)
+  * [3.4. Attentions aux photos et PDF trops lourds](#3.4)
+  * [3.5. Attentions aux noms des fichiers de photos et PDF](#3.5)
+  * [3.6. Pour gérer les fichiers ou les images dans le site](#3.6)
+* [4. En cas de problème](#4)
+* [5. Informations techniques](#5)
 
-Par exemple, les items de menus peuvent être modifiés au [https://github.com/aphcq-association/site-web/blob/master/docs/_config.yml](https://github.com/aphcq-association/site-web/blob/master/docs/_config.yml).
+<a name="1"></a> [Retour à la table des matières](#tm)
 
-Ce document est en format YAML, et si la syntaxe YAML n'est pas respectée, le site peut arrêter de s'auto-générer, voir la section "déboguer un problème avec le site", plus bas.
+<span></span>1. Informations générales et liens utiles
+-----
 
-* [Description du langage YAML](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
+* Adresse temporaire du site web _avant son lancement_: http://aphcq.dcycleproject.org/
+* Adresse permanente du site: http://www.aphcq.ca/.
+* Interface administrative du site (pour modifier le contenu du site et du présent guide): [http://aphcq.dcycleproject.org/admin](http://aphcq.dcycleproject.org/admin).
+* Licence d'utilisation du contenu du site:  disponible à https://github.com/aphcq-association/site-web/blob/master/LICENSE, (et non sur dans site web lui-même).
 
-## Pour modifier des page particulières
+<a name="2"></a> [Retour à la table des matières](#tm)
 
-Disons qu'on veut modifier la page http://aphcq.dcycleproject.org/bulletin.html, on peut modifier [https://github.com/aphcq-association/site-web/blob/master/docs/bulletin.html](https://github.com/aphcq-association/site-web/blob/master/docs/bulletin.html).
+<span></span>2. Pour accéder au présent guide en ligne
+-----
 
-Ces pages sont en format Markdown, qui pardonne beaucoup plus que le YAML: si on fait une erreur de Syntaxe en Markdown, le site ne "brisera" pas.
+Option 1: accéder directement à la page [http://aphcq.dcycleproject.org/guide-admin.html](http://aphcq.dcycleproject.org/guide-admin.html).
 
-* [Description du langage Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* [Outil en-ligne pour jouer avec le Markdown et voir le résultat](https://markdown-it.github.io)
+Option 2: cliquer sur le lien « Administration de site » dans le menu inférieur du [site web](http://aphcq.dcycleproject.org/).
 
-## Nommer des fichiers
+<a name="3"></a> [Retour à la table des matières](#tm)
 
-Les fichiers doivent contenir uniquement des lettres minuscules, des chiffres, des tirets, ou des barres de soulignements, par exemple:
+<span></span>3. Pour modifier le contenu du site web
+-----
 
-* abc-123.pdf
-* ceci_est_une_photo.jpg
+<a name="3.1"></a> [Retour à la table des matières](#tm)
 
-## Gestion de fichiers
+### <span></span>3.1. Prérequis
 
-Dans le CMS à http://aphcq.dcycleproject.org/admin/, utiliser la fonction "média" dans la barre du haut pour gérer vos fichiers.
+Obtenir un droit de modification. Pour se faire, il faut :
+
+* se créer un compte personnel gratuit sur la plateforme de développement de site web [Github](https://github.com/) (site en anglais);
+* transmettre son nom d'utilisateur Github à un autre administrateur du site afin de se faire ajouter comme administrateur.
+
+L'interface administrative se trouve à [http://aphcq.dcycleproject.org/admin](http://aphcq.dcycleproject.org/admin) et vous pouvez vous y connecter avec votre compte GitHub.
+
+<a name="3.2"></a> [Retour à la table des matières](#tm)
+
+### <span></span>3.2. Pour modifier des éléments communs à toutes les pages
+
+Par exemple, les items de menus (titres des pages) peuvent être modifiés dans la page [http://aphcq.dcycleproject.org/admin/#/collections/sections/entries/section](http://aphcq.dcycleproject.org/admin/#/collections/sections/entries/section). Tous les autres types d'éléments communs à toutes les pages sont accessible via la barre de gauche de l'interface administrative.
+
+<a name="3.3"></a> [Retour à la table des matières](#tm)
+
+### <span></span>3.3. Pour modifier des pages particulières / Insérer des hyperliens
+
+Une fois dans l'interface administrative, vous rendre dans la section des "pages" pour modifier n'importe quelle page du site.
+
+#### Pour modifier le texte d'une page
+
+Pour modifier par exemple le texte de la page « Bulletin de l'APHCQ » pour faire mention d'un nouveau numéro, accéder à http://aphcq.dcycleproject.org/admin/#/collections/pages/entries/bulletin. Toutes les pages sont listées dans la section "pages".
+
+#### Pour insérer un hyperlien
+
+Pour insérer dans le texte d'une page un hyperlien permettant d'accéder à un fichier, sélectionner le texte que vous voulez transformer en hyperlien; cliquer sur l'icône du lien ("Link"), inscrivez l'adresse ou lien requis, par exemple:
+
+* Lien vers un site externe (indiquer l'adresse complète débutant par `http://`)
+
+* Liens vers une autre page du site: `/bulletin.html` pour renvoyer à la page du Bulletin
+
+* Lien vers un courriel, utiliser "mailto:exemple@exemple.com" (mettre "mailto:" avant l'adresse courriel)
+
+#### Pour sauvegarder les changements
+
+cliquer sur le bouton "Publier" en haut  droite pour sauvegarder et publier les changements apportés.
+
+> À noter: Il  est possible que quelques minutes soient nécessaires avant que les changements n'apparaissent dans le site.
+
+<a name="3.4"></a> [Retour à la table des matières](#tm)
+
+### <span></span>3.4 Attentions aux photos et PDF trops lourds
+
+Le système ne comprime pas les photos ou les PDF, ce qui peut rendre le site très lent surtout sur cellulaire. Donc, il est recommandé de comprimer vos photos et avant des les téléverser. Voici comment:
+
+* Pour les photos, utiliser le service gratuit en ligne [Compress JPG](https://compressjpeg.com) ou [Compress PNG](https://compresspng.com) pour comprimer vos photos.
+* Pour les PDF (ex.: un numéro du Bulletin), utiliser le service gratuit en ligne [Small PDF](http://smallpdf.com).
+
+<a name="3.5"></a> [Retour à la table des matières](#tm)
+
+### <span></span>3.5 Attentions aux noms des fichiers de photos et PDF
+
+Avant de téléverser un fichier dans le système (voir plus bas), nommer le fichier sans majuscule, sans accent ni caractères spéciaux (ex. : statuts_reglements_aphcq_7_juin_2013.pdf).
+
+<a name="3.6"></a> [Retour à la table des matières](#tm)
+
+### <span></span>3.6 Pour gérer les fichiers ou les images dans le site
+
+Une fois que vous avez sur votre ordinateur un fichier ou une photo pas trop lourde et bien nommée (voir ci-dessus), accédez au dossier « Media » où sont conservés les fichiers intégrés au site, puis cliquer le bouton « Téléverser une nouvelle ressource.
+
+Vous pouvez utiliser cet outil pour retirer aussi des photos existantes dans le système.
 
 Quand vous insérez des photos sur des pages de contenu, vous aurez souvent la possibilité d'entrer un texte dans un champs "décrire l'image pour personnes non-voyantes". Pensez aux personnes qui n'arrivent pas à voir votre et décrivez-la, par exemple: "Groupe d'une trentaine de membres d'APHCQ, à l'extérieur".
 
-## Attentions aux photos trop lourdes
+<a name="4"></a> [Retour à la table des matières](#tm)
 
-Le système ne comprime pas les photos, ce qui peut rendre le site très lent surtout sur cellulaire. Donc, il est recommandé de comprimer vos photos avant des les téléverser. Voici comment:
+<span></span>4. En cas de problème
+-----
 
-Utiliser le service en ligne [Compress JPG](https://compressjpeg.com) pour comprimer vos photos.
+Si vous éprouvez un problème ou avez une question sur la gestion du site, le mieux est de visiter la [page des billets ("issues")](https://github.com/aphcq-association/site-web/issues) sur GitHub, et ouvrir un billet (new issue) au besoin. Toute personne ayant une connaissance technique du développement web pourra également lire les informations techniques ci-dessous pour tenter de régler le problème.
 
-## Déboguer un problème avec le site
+<a name="5"></a> [Retour à la table des matières](#tm)
 
-Disons que nos modifications arrêtent d'être reflétées sur le site, on peut trouver la source du problème en suivant ces étapes:
+<span></span>5. Informations techniques
+-----
 
-Optionnel: quand on fait une modification à une page, [par exemple la page Bulletins](https://github.com/aphcq-association/site-web/edit/master/docs/bulletin.html), avant de faire "Commit changes" (l'équivalent de "sauvegarder"), mettre un "message" qui décrit nos changements.
+Cette section est destinée aux personnes désirant une plus profonde compréhension technique du site web de l'APHCQ.
 
-<img src="/media/admin-1.png?token={{ site.time | date: '%s' }}" />
+### Technologies utilisées
 
-Plus tard, on peut voir la liste de tous les changements au site en allant dans la section "Commits" comme dans l'image suivante:
+Ce site utilise une approche statique; nous n'avons donc aucune base de données ou serveur d'hébergement dédié, de façon à réduire les coûts et augmenter la fiabilité. Les technologies utilisées sont:
+
+* [GitHub](https://github.com) pour le code source.
+* [GitHub Pages](https://pages.github.com) pour l'hébergement.
+* [NetlifyCMS](https://www.netlifycms.org) pour l'interface administrative.
+* [Jekyll](https://jekyllrb.com) pour la génération de site statique.
+* [Dcycle Static](https://static.dcycle.com) pour l'authentification à Netlify.
+
+Ce site a initialement été développé par Albert Albala de Services-conseil Dcycle, en mars et avril 2020.
+
+GitHub a deux types de comptes, le compte "personnel" avec nom d'utilisateur et un mot de passe, et le compte "organisation" comem par exemple "aphcq-association" auquel plusieurs comptes personnels peuvent avoir accès.
+
+Dcycle static requiert qu'un compte personnel soit désigné comme principal pour un site web. Ce compte, au moment d'écrire ces lignes, est [le compte d'alberto56, le développeur web](https://github.com/aphcq-association/site-web/blob/master/docs/admin/config.yml#L9-L10). Ce compte, et le serveur d'authentification à Netlify, peuvent être modifiés en tout temps, dans l'objectif d'éviter la dépendance envers un fournisseur ("vendor lock-in"); [voici les instructions pour le faire](https://preview-auth-doc--netlify-cms-www.netlify.com/docs/authentication-backends/).
+
+### Nom de domaine
+
+* Le nom de domaine aphcq.ca est la propriété d'APHCQ et géré par ses administrateurs.
+* Le domaine aphcq.ca redirige vers www.aphcq.ca
+* www.aphcq.ca a un CNAME qui pointe vers "aphcq-association.github.io." (ne pas oublier le point à la fin et omettre les guillements).
+* Sur le code sur Github, le document [CNAME](https://github.com/aphcq-association/site-web/blob/master/docs/CNAME) contient le nom de domaine actif pour ce site.
+
+### Licence
+
+La licence [se trouve sur GitHub](https://github.com/aphcq-association/site-web/blob/master/LICENSE). Cette licence n'est pas pas modifiable avec le système de gestion de contenu (CMS) du site, il faut  plutôt le modifier directement sur le serveur GitHub en texte brut.
+
+### Déboguer un problème avec le site
+
+Disons que nos modifications arrêtent d'être reflétées sur le site, on peut trouver la source du problème en visitant la section "commits" [du projet sur GitHub](https://github.com/aphcq-association/site-web/commits/master):
 
 <img src="/media/admin-2.png?token={{ site.time | date: '%s' }}" />
 
@@ -63,26 +166,31 @@ Si le site ne s'auto-génère plus, on peut identifier le changements à la sour
 
 <img src="/media/admin-3.png?token={{ site.time | date: '%s' }}" />
 
-Chaque "commit" peut être examiné en cliquant sur son identité, dans l'exemple ci-dessus, "9bc166c". Dans cet exemple précis, cela nous mène à:
+On peut ainsi voir quel changement a causé le problème.
 
-* https://github.com/aphcq-association/site-web/commit/9bc166c6a38d0fbe7b50a6cd2d7b4d6f5f5a5a5e
+### Taille idéale des photos
 
-Dans ce cas précis, le changement à la base de l'erreur est une erreur de syntaxe dans le document YAML (voir la section "Pour modifier des éléments communs à toutes les page", ci-dessus). Vous n'avez qu'à réparer le problème, ou, si vous ne savez pas comment, ouvrir un ticket sur GitHub et mettre le lien du problème, dans ce cas https://github.com/aphcq-association/site-web/commit/9bc166c6a38d0fbe7b50a6cd2d7b4d6f5f5a5a5e.
-
-## Taille des photos
+Peu importe la taille des photos, le site devrait bien s'afficher. Par contre voici la taille idéale des photos:
 
 * Pleine taille (code c): 1920 x 832, par exemple http://aphcq.dcycleproject.org/media/1c.jpg
 * Petite taille (code s): 558 x 329, par exemple http://aphcq.dcycleproject.org/media/1c.jpg
 * Bannière (code (b): 1920 x 248, par exmple http://aphcq.dcycleproject.org/media/1bv2.jpg
 
-## Technologie utilisée
+### Markdown et YAML
 
-* [GitHub](https://github.com) pour le code source.
-* [GitHub Pages](https://pages.github.com) pour l'hébergement.
-* [NetlifyCMS](https://www.netlifycms.org) pour l'interface administrative.
-* [Jekyll](https://jekyllrb.com) pour la génération de site statique.
-* [Dcycle Static](https://static.dcycle.com) pour l'authentification à Netlify. Dcycle Static utilise
+Normalement vous n'aurez pas à comprendre le markdown, syntaxe de composition de texte. Dans l'interface administrative, vous verrez un éditeur texte "wysiwyg". Toutefois il est bon de savoir que le Markdown est la syntaxe de base de tout le contenu. Les documents déefinissant la structure du site (par exemple, les champs pour modifier le contenu) est en langage YAML. Voici quelques ressources:
 
-GitHub a deux types de comptes, le compte "personnel" avec nom d'utilisateur et un mot de passe, et le compte "organisation" comem par exemple "aphcq-association" auqeul plusieurs comptes personnels peuvent avoir accès.
+* [Description du langage Markdown (en français): https://www.ionos.fr/digitalguide/sites-internet/developpement-web/markdown/
+* [Description du langage YAML (en anglais)](https://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html)
+* [Description du langage Markdown (en anglais)](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [Outil en-ligne pour jouer avec le Markdown et voir le résultat (en anglais)](https://markdown-it.github.io)
 
-Dcycle static requier qu'un compte personnel soit désigné comme principal pour un site web. Ce compte, au moment d'écrire ces lignes, est [le compte d'alberto56, le développeur web](https://github.com/aphcq-association/site-web/blob/master/docs/admin/config.yml#L9-L10). Ce compte, et le serveur d'authentification à Netlify, peuvent être modifiés en tout temps, dans l'objectif d'éviter la dépendance envers un fournisseur ("vendor lock-in"); [voici les instructions pour le faire](https://preview-auth-doc--netlify-cms-www.netlify.com/docs/authentication-backends/).
+## Structure du code source
+
+Tout ce qui se trouve dans le répertoire /docs correspond au contenu du site web, mais il n'existe pas, du point de vue de l'internaute, un espace /docs sur le site web. Par exemple, le sous-dossier docs/bulletins dans le code source visible par l'administrateur correspond à la page  /bulletin  sur le site web.
+
+### NetlifyCMS
+
+Un site traditionnel en WordPress ou autre requiert un espace serveur et une base de données, ce qui rend la performance plus lente et la maintenance plus difficile, surtout après plusieurs années. Le présent site est complètement défini par des documents du code source et ne requiert pas de base de données ou de serveur d'hébergement. Ce qui signifie que nous ne pouvons pas utiliser un CMS (système de gestion de contenu) traditionnel comme Wordpress. Pour pallier à ce problème, nous utilisons NetlifyCMS qui présente une interface administrative pour le contenu, mais hébergée sur l'ordinateur de l'utilisateur, directement sur son fureteur en JavaScript. Le CMS doit ensuite avoir accès au code source via le système oAuth et un serveur d'authentification (voir plus haut).
+
+NetlifyCMS est accessible au http://aphcq.dcycleproject.org/admin/
