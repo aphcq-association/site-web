@@ -20,7 +20,7 @@ collections:
   #   fields:
   #     - { label: 'Mise en page', name: 'layout', widget: 'hidden', default: 'page_texte' }
   #     - { label: 'Titre', name: 'titre', widget: 'string' }
-  #     - { label: 'Publish Date', name: 'image_top', widget: 'string', default: '/media/1b.jpg' }
+  #     - { label: 'Publish Date', name: 'image_top', widget: 'string', default: '/media/1bv2.jpg' }
   #     - { label: 'Publish Date', name: 'image_droite', widget: 'string', default: '/media/1s.jpg' }
   #     - { label: 'Body', name: 'body', widget: 'markdown' }
   - name: "carrousel"
