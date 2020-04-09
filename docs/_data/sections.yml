@@ -2,23 +2,30 @@ items:
   - id: home
     href: /index.html
     titre: Accueil
+    nouvel_onglet: false
   - id: apropos
     href: /apropos.html
     titre: À propos de l'APHCQ
+    nouvel_onglet: false
   - id: adherez
     href: /adherez.html
     titre: Adhésion
+    nouvel_onglet: false
   - id: bulletin
     href: /bulletin.html
     titre: Bulletin de l'APHCQ
+    nouvel_onglet: false
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
     titre: Sur Facebook
+    nouvel_onglet: true
   - id: congres
     href: /congres.html
     titre: Congrès annuel
     classes: cacher-en-haut
+    nouvel_onglet: false
   - id: eng
     titre: ENG
     href: /english.html
     classes: lang
+    nouvel_onglet: false

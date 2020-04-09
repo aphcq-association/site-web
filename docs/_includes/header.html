@@ -30,7 +30,7 @@
             <ul class="d-flex flex-column flex-lg-row justify-content-lg-end align-content-center">
               {% for section in site.data.sections.items %}
               <li class="{% if section.id == page.nav_id %}current-menu-item{% endif %}{% if section.classes %} {{ section.classes }}{% endif %}">
-                <a href="{{ section.href }}">{{ section.titre }}</a>
+                <a href="{{ section.href }}"{% if section.nouvel_onglet %} target="_blank"{% endif %}>{{ section.titre }}</a>
               </li>
               {% endfor %}
             </ul>

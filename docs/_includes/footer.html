@@ -20,7 +20,7 @@
 
           <ul>
             {% for section in site.data.sections.items %}
-            <li><a href="{{ section.href }}">{{ section.titre }}</a></li>
+            <li><a href="{{ section.href }}"{% if section.nouvel_onglet %} target="_blank"{% endif %}>{{ section.titre }}</a></li>
             {% endfor %}
           </ul>
         </div><!-- .col -->
