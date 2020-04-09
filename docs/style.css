@@ -23,7 +23,7 @@
 }
 
 .entry-content a {
-  font-weight: bold;
+  text-decoration: underline;
 }
 
 blockquote {
