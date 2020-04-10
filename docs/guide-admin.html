@@ -5,15 +5,14 @@ titre: Guide d'administration du site
 image_top: /media/5b.jpg
 date: 2020-01-07T12:00:00.000Z
 ---
-
 <a name="tm"></a>
 
-Table des matières
------
+## Table des matières
 
 * [1. Informations générales et liens utiles](#1)
 * [2. Pour accéder au présent guide en ligne](#2)
 * [3. Pour modifier le contenu du site web](#3)
+
   * [3.1. Prérequis](#3.1)
   * [3.2. Pour modifier des éléments communs à toutes les pages](#3.2)
   * [3.3. Pour modifier des pages particulières / Insérer des hyperliens](#3.3)
@@ -25,27 +24,24 @@ Table des matières
 
 <a name="1"></a> [Retour à la table des matières](#tm)
 
-<span></span>1. Informations générales et liens utiles
------
+## <span></span>1. Informations générales et liens utiles
 
-* Adresse temporaire du site web _avant son lancement_: [http://aphcq.dcycleproject.org/](http://aphcq.dcycleproject.org/).
-* Adresse permanente du site: [http://www.aphcq.ca/](http://www.aphcq.ca/).
-* Interface administrative du site (pour modifier le contenu du site et du présent guide): [http://aphcq.dcycleproject.org/admin](http://aphcq.dcycleproject.org/admin).
+* Adresse temporaire du site web *avant son lancement*: <http://aphcq.dcycleproject.org/>.
+* Adresse permanente du site: <http://www.aphcq.ca/>.
+* Interface administrative du site (pour modifier le contenu du site et du présent guide): <http://aphcq.dcycleproject.org/admin>.
 * Licence d'utilisation du contenu du site: disponible à https://github.com/aphcq-association/site-web/blob/master/LICENSE, (et non sur dans site web lui-même).
 
 <a name="2"></a> [Retour à la table des matières](#tm)
 
-<span></span>2. Pour accéder au présent guide en ligne
------
+## <span></span>2. Pour accéder au présent guide en ligne
 
-Option 1: accéder directement à la page [http://aphcq.dcycleproject.org/guide-admin.html](http://aphcq.dcycleproject.org/guide-admin.html).
+Option 1: accéder directement à la page <http://aphcq.dcycleproject.org/guide-admin.html>.
 
 Option 2: cliquer sur le lien « Administration de site » dans le menu inférieur du [site web](http://aphcq.dcycleproject.org/).
 
 <a name="3"></a> [Retour à la table des matières](#tm)
 
-<span></span>3. Pour modifier le contenu du site web
------
+## <span></span>3. Pour modifier le contenu du site web
 
 <a name="3.1"></a> [Retour à la table des matières](#tm)
 
@@ -56,13 +52,13 @@ Obtenir un droit de modification. Pour se faire, il faut :
 * se créer un compte personnel gratuit sur la plateforme de développement de site web [Github](https://github.com/) (site en anglais);
 * transmettre son nom d'utilisateur Github à un autre administrateur du site afin de se faire ajouter comme administrateur.
 
-L'interface administrative se trouve à [http://aphcq.dcycleproject.org/admin](http://aphcq.dcycleproject.org/admin) et vous pouvez vous y connecter avec votre compte GitHub.
+L'interface administrative se trouve à <http://aphcq.dcycleproject.org/admin> et vous pouvez vous y connecter avec votre compte GitHub.
 
 <a name="3.2"></a> [Retour à la table des matières](#tm)
 
 ### <span></span>3.2. Pour modifier des éléments communs à toutes les pages
 
-Par exemple, les items de menus (titres des pages) peuvent être modifiés dans la page [http://aphcq.dcycleproject.org/admin/#/collections/sections/entries/section](http://aphcq.dcycleproject.org/admin/#/collections/sections/entries/section). Tous les autres types d'éléments communs à toutes les pages sont accessible via la barre de gauche de l'interface administrative.
+Par exemple, les items de menus (titres des pages) peuvent être modifiés dans la page <http://aphcq.dcycleproject.org/admin>. Tous les autres types d'éléments communs à toutes les pages sont accessible via la barre de gauche de l'interface administrative.
 
 <a name="3.3"></a> [Retour à la table des matières](#tm)
 
@@ -79,9 +75,7 @@ Pour modifier par exemple le texte de la page « Bulletin de l'APHCQ » pour fai
 Pour insérer dans le texte d'une page un hyperlien permettant d'accéder à un fichier, sélectionner le texte que vous voulez transformer en hyperlien; cliquer sur l'icône du lien ("Link"), inscrivez l'adresse ou lien requis, par exemple:
 
 * Lien vers un site externe (indiquer l'adresse complète débutant par `http://`)
-
 * Liens vers une autre page du site: `/bulletin.html` pour renvoyer à la page du Bulletin
-
 * Lien vers un courriel, utiliser "mailto:exemple@exemple.com" (mettre "mailto:" avant l'adresse courriel)
 
 #### Pour sauvegarder les changements
@@ -117,15 +111,13 @@ Quand vous insérez des photos sur des pages de contenu, vous aurez souvent la p
 
 <a name="4"></a> [Retour à la table des matières](#tm)
 
-<span></span>4. En cas de problème
------
+## <span></span>4. En cas de problème
 
 Si vous éprouvez un problème ou avez une question sur la gestion du site, le mieux est de visiter la [page des billets ("issues")](https://github.com/aphcq-association/site-web/issues) sur GitHub, et ouvrir un billet (new issue) au besoin. Toute personne ayant une connaissance technique du développement web pourra également lire les informations techniques ci-dessous pour tenter de régler le problème.
 
 <a name="5"></a> [Retour à la table des matières](#tm)
 
-<span></span>5. Informations techniques
------
+## <span></span>5. Informations techniques
 
 Cette section est destinée aux personnes désirant une plus profonde compréhension technique du site web de l'APHCQ.
 
@@ -139,7 +131,7 @@ Ce site utilise une approche statique; nous n'avons donc aucune base de données
 * [Jekyll](https://jekyllrb.com) pour la génération de site statique.
 * [Dcycle Static](https://static.dcycle.com) pour l'authentification à Netlify.
 
-Le code source du site web de l’APHCQ estdistribué gratuitement sur la plateforme Github à [https://github.com/aphcq-association/site-web](https://github.com/aphcq-association/site-web).
+Le code source du site web de l’APHCQ estdistribué gratuitement sur la plateforme Github à <https://github.com/aphcq-association/site-web>.
 
 Ce site a initialement été développé par Albert Albala de Services-conseil Dcycle, en mars et avril 2020.
 
