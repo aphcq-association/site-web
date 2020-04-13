@@ -6,6 +6,7 @@ items:
     texte3: de l'épidémie de COVID-19.
     texte4: null
     href: /congres.html
+    nouvel_onglet: false
   - icone: hands
     titre: Devenez membre
     texte: L'enseignement de l'histoire au
@@ -13,6 +14,7 @@ items:
     texte3: Devenez membre de l'APHCQ!
     texte4: null
     href: /adherez.html
+    nouvel_onglet: false
   - icone: donation
     titre: Suivez-nous
     texte: Découvrez nos activités
@@ -20,3 +22,4 @@ items:
     texte3: sur Facebook
     texte4: null
     href: 'https://www.facebook.com/groups/50431211883/'
+    nouvel_onglet: true

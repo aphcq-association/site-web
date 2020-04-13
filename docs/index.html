@@ -63,7 +63,7 @@ nav_id: home
 
         {% for boite in site.data.sections_oranges.items %}
         <div class="col-12 col-md-6 col-lg-4 mt-4 mt-lg-0">
-          <a class="no-underline" href="{{ boite.href }}">
+          <a class="no-underline" href="{{ boite.href }}"{% if boite.nouvel_onglet %} target="_blank"{% endif %}>
           <div class="icon-box">
             <figure class="d-flex justify-content-center">
               <img src="media/{{ boite.icone }}-gray.png" alt="">
