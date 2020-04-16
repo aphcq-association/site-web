@@ -3,7 +3,7 @@ Site web de l'APHCQ
 
 [![CircleCI](https://circleci.com/gh/aphcq-association/site-web.svg?style=svg)](https://circleci.com/gh/aphcq-association/site-web)
 
-Disponible temporairement au http://aphcq.dcycleproject.org
+Disponible au https://www.aphcq.ca
 
 Le modèle (template)
 -----
