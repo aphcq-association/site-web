@@ -1,9 +1,9 @@
 items:
   - icone: charity
-    titre: Congrès 2020
-    texte: '**Avis**: Annulation'
-    texte2: du Congrès 2020 en raison
-    texte3: de l'épidémie de COVID-19.
+    titre: Mini-congrès virtuel 2021
+    texte: LA NOUVELLE COMPÉTENCE EN HISTOIRE
+    texte2: Quand? Le 27 mai 2021
+    texte3: "Date limite pour s'inscrire: 21 mai"
     texte4: null
     href: /congres.html
     nouvel_onglet: false
@@ -21,5 +21,5 @@ items:
     texte2: et nos discussions
     texte3: sur Facebook
     texte4: null
-    href: 'https://www.facebook.com/groups/50431211883/'
+    href: https://www.facebook.com/groups/50431211883/
     nouvel_onglet: true
