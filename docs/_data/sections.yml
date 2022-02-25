@@ -15,15 +15,15 @@ items:
     href: /bulletin.html
     titre: Bulletin de l'APHCQ
     nouvel_onglet: false
-  - id: facebook
-    href: https://www.facebook.com/groups/50431211883/
-    titre: Sur Facebook
-    nouvel_onglet: true
   - id: congres
     href: /congres.html
     titre: Congrès annuel
     classes: cacher-en-haut
     nouvel_onglet: false
+  - id: facebook
+    href: https://www.facebook.com/groups/50431211883/
+    titre: Sur Facebook
+    nouvel_onglet: true
   - id: eng
     titre: ENG
     href: /english.html
