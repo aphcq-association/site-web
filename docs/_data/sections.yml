@@ -9,7 +9,7 @@ items:
     nouvel_onglet: false
   - id: adherez
     href: /adherez.html
-    titre: Adhésion
+    titre: Devenir membre
     nouvel_onglet: false
   - id: congres
     href: /congres.html
