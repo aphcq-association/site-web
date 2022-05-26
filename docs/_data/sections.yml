@@ -11,10 +11,6 @@ items:
     href: /adherez.html
     titre: Devenir membre
     nouvel_onglet: false
-  - nouvel_onglet: false
-    id: conferences
-    titre: Conférences
-    href: /achat-annule.html
   - id: congres
     href: /congres.html
     titre: Congrès annuel
