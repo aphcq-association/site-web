@@ -16,9 +16,9 @@ items:
     titre: Congrès annuel
     classes: cacher-en-haut
     nouvel_onglet: false
-  - id: bulletin
+  - id: Documents
     href: /bulletin.html
-    titre: Bulletin de l'APHCQ
+    titre: Documents de l'APHCQ
     nouvel_onglet: false
   - id: facebook
     href: https://www.facebook.com/groups/50431211883/
