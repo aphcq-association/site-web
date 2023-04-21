@@ -1,11 +1,21 @@
 items:
   - nom: "Catégorie A (sans Congrès) - Membre régulier subventionné: "
     prix: 50
+  - nom: "Catégorie A+ (avec Congrès) - Membre régulier subventionné: "
+    prix: "120"
   - nom: "Catégorie B (sans Congrès) - Membre régulier non subventionné: "
     prix: 25
+  - nom: "Catégorie B+ (avec Congrès) - Membre régulier non subventionné:"
+    prix: "60"
   - nom: "Catégorie C (sans Congrès) - Membre associé: "
     prix: "50"
+  - nom: "Catégorie C+ (avec Congrès) - Membre associé:"
+    prix: "120"
   - nom: "Catégorie D (sans Congrès) - Membre étudiant: "
     prix: "25"
+  - nom: "Catégorie D+ (avec Congrès) - Membre étudiant: "
+    prix: "60"
   - nom: "Catégorie E (sans Congrès) - Membre retraité: "
     prix: 25
+  - nom: "Catégorie E+ (avec Congrès) - Membre retraité: "
+    prix: "60"
