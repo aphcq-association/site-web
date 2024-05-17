@@ -1,32 +1,19 @@
 items:
-  - nom: "Catégorie A++ : Membre régulier subventionné AVEC congrès AVEC banquet"
+  - nom: Catégorie A++ (Membre régulier subventionné) et C++ (Membre associé) - AVEC
+      congrès AVEC banquet
     prix: "225.00"
-  - nom: "Catégorie A+ : Membre régulier AVEC congrès SANS banquet"
+  - nom: Catégorie A+ (Membre régulier subventionné) et C+ (Membre associé) - AVEC
+      congrès SANS banquet
     prix: "155.00"
-  - nom: "Catégorie A : Membre régulier subventionné SANS congrès"
+  - nom: Catégorie A (Membre régulier subventionné) et C (Membre associé) - SANS
+      congrès
     prix: "50.00"
-  - nom: "Catégorie B++ : Membre régulier non subventionné AVEC congrès AVEC
-      banquet"
+  - nom: Catégorie B++ (Membre régulier non subventionné), D++ (Membre étudiant) et
+      E++ (Membre retraité) - AVEC congrès AVEC banquet
     prix: "147.50"
-  - nom: "Catégorie B+ : Membre régulier non-subventionné AVEC congrès SANS banquet"
+  - nom: Catégorie B+ (Membre régulier non subventionné), D+ (Membre étudiant) et E+
+      (Membre retraité) - AVEC congrès SANS banquet
     prix: "77.50"
-  - nom: "Catégorie B : Membre régulier non subventionné SANS congrès"
-    prix: "25.00"
-  - nom: "Catégorie C++ : Membre associé AVEC congrès AVEC banquet"
-    prix: "225.00"
-  - nom: "Catégorie C+ : Membre associé AVEC congrès SANS banquet"
-    prix: "155.00"
-  - nom: "Catégorie C : Membre associé SANS congrès"
-    prix: "50.00"
-  - nom: "Catégorie D++ : Membre étudiant AVEC congrès AVEC banquet"
-    prix: "147.50"
-  - nom: "Catégorie D+ : Membre étudiant AVEC congrès SANS banquet"
-    prix: "77.50"
-  - nom: "Catégorie D : Membre étudiant SANS congrès"
-    prix: "25.00"
-  - nom: "Catégorie E++ : Membre retraité AVEC congrès AVEC banquet"
-    prix: "147.50"
-  - nom: "Catégorie E+ : Membre retraité AVEC congrès SANS banquet"
-    prix: "77.50"
-  - nom: "Catégorie E : Membre retraité SANS congrès"
+  - nom: Catégorie B (Membre régulier non subventionné), D (Membre étudiant) et E
+      (Membre retraité) - SANS congrès
     prix: "25.00"
