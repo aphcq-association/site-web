@@ -26,7 +26,7 @@ items:
     prix: "25.00"
   - nom: "Catégorie E++ : Membre retraité AVEC congrès AVEC banquet"
     prix: "147.50"
-  - nom: " Catégorie E+ : Membre retraité AVEC congrès SANS banquet"
+  - nom: "Catégorie E+ : Membre retraité AVEC congrès SANS banquet"
     prix: "77.50"
   - nom: "Catégorie E : Membre retraité SANS congrès"
     prix: "25.00"
