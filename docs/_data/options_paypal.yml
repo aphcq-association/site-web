@@ -1,19 +1,7 @@
 items:
-  - nom: Catégorie A++ (Membre régulier subventionné) et C++ (Membre associé) - AVEC
-      congrès AVEC banquet
-    prix: "225.00"
-  - nom: Catégorie A+ (Membre régulier subventionné) et C+ (Membre associé) - AVEC
-      congrès SANS banquet
-    prix: "155.00"
   - nom: Catégorie A (Membre régulier subventionné) et C (Membre associé) - SANS
       congrès
     prix: "50.00"
-  - nom: Catégorie B++ (Membre régulier non subventionné), D++ (Membre étudiant) et
-      E++ (Membre retraité) - AVEC congrès AVEC banquet
-    prix: "147.50"
-  - nom: Catégorie B+ (Membre régulier non subventionné), D+ (Membre étudiant) et E+
-      (Membre retraité) - AVEC congrès SANS banquet
-    prix: "77.50"
   - nom: Catégorie B (Membre régulier non subventionné), D (Membre étudiant) et E
       (Membre retraité) - SANS congrès
     prix: "25.00"
