@@ -5,3 +5,10 @@ items:
   - nom: Catégorie B (Membre régulier non subventionné), D (Membre étudiant) et E
       (Membre retraité) - SANS congrès
     prix: "25.00"
+  - nom: INSCRIPTION-CONGRÈS A+. membre subventionné et membres associé
+    prix: "250.00"
+  - nom: INSCRIPTION CONGRÈS (D+ et B+) membres étudiants et membres
+      non-subventionnés
+    prix: "165.00"
+  - nom: INSCRIPTION CONGRÈS (E+) membres retraités
+    prix: "225.00"
