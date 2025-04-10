@@ -4,12 +4,12 @@ items:
     image: /media/6c.jpg
     action: En savoir plus
     action_href: /apropos.html
-  - titre: "Notre congrès annuel"
+  - titre: Notre congrès annuel
     texte: Une occasion unique de formation et de réseautage
     action: Inscrivez-vous
     action_href: /congres.html
-    image: /media/3c.jpg
-  - titre: "Le Bulletin de l'APHCQ"
+    image: /media/congres-matane.png
+  - titre: Le Bulletin de l'APHCQ
     texte: Un outil d'information et de réflexion pour nos membres
     action: Accédez au Bulletin
     plus: null
@@ -21,7 +21,7 @@ items:
     plus: null
     image: /media/4c.jpg
     action_href: /adherez.html
-  - titre: "L'APHCQ sur Facebook"
+  - titre: L'APHCQ sur Facebook
     texte: Participez aux discussions entre les membres et les sympathisants
     action: Suivez-nous sur Facebook
     plus: null
