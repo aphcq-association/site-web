@@ -6,7 +6,7 @@ items:
     action_href: /apropos.html
   - titre: Notre congrès annuel
     texte: Une occasion unique de formation et de réseautage
-    action: Inscrivez-vous
+    action: Inscrivez-vous!
     action_href: /congres.html
     image: /media/congrès.jpg
   - titre: Le Bulletin de l'APHCQ
