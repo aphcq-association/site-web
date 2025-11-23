@@ -280,10 +280,10 @@ collections:
             fields:
               - {label: "image", name: image, widget: image, required: false}
               - {label: "décrire l'image pour personnes non-voyantes", name: alt, widget: string, required: false}
-	- label: 'Cours Histoire du QC'
-    name: 'cours-hst-qc'
-    file: 'docs/courshstqc.html'
-    fields:
+      - label: 'Cours Histoire du QC'
+      name: 'cours-hst-qc'
+      file: 'docs/courshstqc.html'
+      fields:
         - { label: 'Titre', name: 'titre', widget: string }
         - { label: 'Corps', name: 'body', widget: 'markdown' }
         - { label: 'Image du haut', name: 'image_top', widget: 'image', required: false }
@@ -293,13 +293,14 @@ collections:
         widget: "list"
         required: false
         fields:
-            - {label: "Largeur minimale (ex: pour ne pas s'appliquer au mobile)", name: minwidth, widget: number, required: false}
-            - {label: "Décaler vers le haut (pixels)", name: offset, widget: number, required: false}
-        - label: "Image droite"
-        name: "image_droite"
-        widget: "list"
-        required: false
-        fields:
-            - {label: "image", name: image, widget: image, required: false}
-            - {label: "décrire l'image pour personnes non-voyantes", name: alt, widget: string, required: false}
+          - {label: "Largeur minimale (ex: pour ne pas s'appliquer au mobile)", name: minwidth, widget: number, required: false}
+          - {label: "Décaler vers le haut (pixels)", name: offset, widget: number, required: false}
+      - label: "Image droite"
+      name: "image_droite"
+      widget: "list"
+      required: false
+      fields:
+        - {label: "image", name: image, widget: image, required: false}
+        - {label: "décrire l'image pour personnes non-voyantes", name: alt, widget: string, required: false}
+
 
