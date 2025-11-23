@@ -258,7 +258,7 @@ collections:
             fields:
               - {label: "image", name: image, widget: image, required: false}
               - {label: "décrire l'image pour personnes non-voyantes", name: alt, widget: string, required: false}
-      - label: 'Achat annulé'
+      - label: 'Achat annul'
         name: 'achat-annule'
         file: 'docs/achat-annule.html'
         fields:
@@ -280,8 +280,8 @@ collections:
             fields:
               - {label: "image", name: image, widget: image, required: false}
               - {label: "décrire l'image pour personnes non-voyantes", name: alt, widget: string, required: false}
-        - label: 'courshstqc'
-        name: 'courshstqc'
+        - label: 'Cours d'histoire au QC'
+        name: 'cours-hst-qc'
         file: 'docs/courshstqc.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
