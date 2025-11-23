@@ -280,7 +280,7 @@ collections:
             fields:
               - {label: "image", name: image, widget: image, required: false}
               - {label: "décrire l'image pour personnes non-voyantes", name: alt, widget: string, required: false}
-        - label: 'Courshstqc'
+        - label: 'courshstqc'
         name: 'courshstqc'
         file: 'docs/courshstqc.html'
         fields:
