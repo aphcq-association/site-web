@@ -24,6 +24,10 @@ items:
     href: https://www.facebook.com/groups/50431211883/
     titre: Sur Facebook
     nouvel_onglet: true
+  - nouvel_onglet: false
+    id: courshstqc
+    titre: Cours d'histoire à la FG
+    href: /courshstqc
   - id: eng
     titre: ENG
     href: /english.html
