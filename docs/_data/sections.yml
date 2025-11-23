@@ -26,7 +26,7 @@ items:
     nouvel_onglet: true
   - nouvel_onglet: false
     id: courshstqc
-    titre: Pour un cours d'histoire du Québec obligatoire!
+    titre: Cours histoire du Québec
     href: /courshstqc
   - id: eng
     titre: ENG
