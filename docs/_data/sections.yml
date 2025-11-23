@@ -26,7 +26,7 @@ items:
     nouvel_onglet: true
   - nouvel_onglet: false
     id: courshstqc
-    titre: Cours d'histoire à la FG
+    titre: Pour un cours d'histoire du Québec obligatoire!
     href: /courshstqc
   - id: eng
     titre: ENG
