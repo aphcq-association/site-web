@@ -258,9 +258,9 @@ collections:
             fields:
               - {label: "image", name: image, widget: image, required: false}
               - {label: "décrire l'image pour personnes non-voyantes", name: alt, widget: string, required: false}
-        - label: 'Cours d'histoire au QC'
-        name: 'cours-hst-qc'
-        file: 'docs/courshstqc.html'
+     - label: 'Achat annulé'
+        name: 'achat-annule'
+        file: 'docs/achat-annule.html'
         fields:
           - { label: 'Titre', name: 'titre', widget: string }
           - { label: 'Corps', name: 'body', widget: 'markdown' }
