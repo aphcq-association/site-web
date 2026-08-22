@@ -7,7 +7,7 @@ backend:
   repo: aphcq-association/site-web
   branch: master
   base_url: https://auth.static.dcycle.com
-  auth_endpoint: auth/github/alberto56
+  auth_endpoint: auth/github/aphcq
 media_folder: 'docs/media'
 public_folder: "/media"
 collections:
